@@ -84,7 +84,7 @@ Please go to
 Whichever hashing algorithm you choose, we recommend you repackage your application images and upload them to Tealeaf Server. Detailed steps are available [here](https://developer.goacoustic.com/acoustic-exp-analytics/docs/capturing-and-uploading-images-with-the-image-tool)
 
 ## Troubleshooting
-If you are using Debug version of IBM Tealeaf SDK. i.e. `pod 'IBMTealeafDebug'` , then you may edit your project's scheme in XCode and add environmental variable `EODebug`and set its value to 1; also add environmental variable `TLF_DEBUG` and set its value to 1. This will make the SDK to start writing debug logs to your xcode console window. If and when you want to report issues, the Tealeaf support engineers will ask you for these logs.
+If you are using Debug version of Tealeaf SDK. i.e. `pod 'TealeafDebug'` , then you may edit your project's scheme in XCode and add environmental variable `EODebug`and set its value to 1; also add environmental variable `TLF_DEBUG` and set its value to 1. This will make the SDK to start writing debug logs to your xcode console window. If and when you want to report issues, the Tealeaf support engineers will ask you for these logs.
 
 If you are getting an issue like using Cocoapods:
 
@@ -96,4 +96,4 @@ dyld: launch, loading dependent libraries
 In the podfile, change from use_frameworks! to use_modular_headers! to correct issues.
 
 # License
-License file can be read [here](https://github.com/acoustic-analytics/IBMTealeaf/blob/master/Licenses/License)
+License file can be read [here](https://github.com/acoustic-analytics/Tealeaf/blob/master/Licenses/License)
