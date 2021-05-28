@@ -30,7 +30,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		6CcXPrzZ50pRsLhRci/3tbtAApg=
+		n+K0S2z6UNjeVUP6Wc6wH2qDmWM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>TLFResources.bundle/TealeafAdvancedConfig.json</key>
 		<data>
-		eFJpjhVVd2U9D45kid3O77NBPCA=
+		EHcbX0BI4BP5TZN+zznlZkmM1Qw=
 		</data>
 		<key>TLFResources.bundle/TealeafBasicConfig.plist</key>
 		<data>
@@ -132,11 +132,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			eFJpjhVVd2U9D45kid3O77NBPCA=
+			EHcbX0BI4BP5TZN+zznlZkmM1Qw=
 			</data>
 			<key>hash2</key>
 			<data>
-			OkcyI26H1cvjjCkgPJ2sLSRwKxFDORuta/BnWUsAtDQ=
+			K8wl/OFK2AiL2gfWNg8Uout81ruOUhOXoBx0Ts8mveM=
 			</data>
 		</dict>
 		<key>TLFResources.bundle/TealeafBasicConfig.plist</key>
