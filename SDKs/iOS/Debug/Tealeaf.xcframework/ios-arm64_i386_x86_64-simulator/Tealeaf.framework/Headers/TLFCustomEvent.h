@@ -331,6 +331,13 @@
  */
 -(BOOL)logJSONMessagePayloadStr:(NSString*)payload;
 
+/**
+ Add url to UIImage to be used as a reference for replay.
+ @param image - UIImage used.
+ @param url - Url of the image being used.
+ @return if the url was successfully added to UIImage or not.
+ */
+-(BOOL)logImageUrl:(UIImage*)image withUrl:(NSString*)url;
 ///**
 // Retrieves the current view controller that appear during view did appear.
 // @return current view controller that appear during view did appear.
