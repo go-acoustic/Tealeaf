@@ -89,7 +89,7 @@ If you are using Debug version of Tealeaf SDK. i.e. `pod 'TealeafDebug'` , then 
 If you are getting an issue like using Cocoapods:
 
 dyld: Library not loaded: @rpath/EOCore.framework/EOCore
-  Referenced from: /Users/h26259/Library/Developer/CoreSimulator/Devices/57B11359-B896-495E-B802-A8377313F848/data/Containers/Bundle/Application/9CE5AF4D-CD63-49F8-8288-677EC7BD81DA/myCigna.app/myCigna
+  Referenced from: /Users/h26259/Library/Developer/CoreSimulator/Devices/57B11359-B896-495E-B802-A8377313F848/data/Containers/Bundle/Application/9CE5AF4D-CD63-49F8-8288-677EC7BD81DA/myIos.app/myIos
   Reason: image not found
 dyld: launch, loading dependent libraries
 
