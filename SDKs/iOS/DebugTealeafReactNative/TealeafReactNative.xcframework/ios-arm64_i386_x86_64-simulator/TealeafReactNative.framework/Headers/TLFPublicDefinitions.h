@@ -126,6 +126,7 @@ extern NSString* kTLFMobileStateEvent;
 #define kConfigurableItemUIKeyboardCaptureTouches                           @"UIKeyboardCaptureTouches"
 #define kConfigurableItemTextFieldBeingEditedUseSender                      @"TextFieldBeingEditedUseSender"
 #define kConfigurableItemRemoveSwiftUIDuplicates                            @"RemoveSwiftUIDuplicates"
+#define kConfigurableItemLogFullRequestResponsePayloads                     @"LogFullRequestResponsePayloads"
 
 // TLF Public Protocols
 @protocol TLFSavePrintScreenOperationDelegate <NSObject>
