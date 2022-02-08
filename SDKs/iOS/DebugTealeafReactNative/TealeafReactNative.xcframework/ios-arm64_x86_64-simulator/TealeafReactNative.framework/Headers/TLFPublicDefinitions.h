@@ -122,6 +122,7 @@ extern NSString* kTLFMobileStateEvent;
 #define kConfigurableItemAddGestureRecognizerUIPickerView                   @"AddGestureRecognizerUIPickerView"
 #define kConfigurableItemAddGestureRecognizerUIDatePicker                   @"AddGestureRecognizerUIDatePicker"
 #define kConfigurableItemAddGestureRecognizerUIPageControl                  @"AddGestureRecognizerUIPageControl"
+#define kConfigurableItemAddGestureRecognizerWKWebView                      @"AddGestureRecognizerWKWebView"
 #define kConfigurableItemSwiftUICaptureNonVariadic                          @"SwiftUICaptureNonVariadic"
 #define kConfigurableItemUIKeyboardCaptureTouches                           @"UIKeyboardCaptureTouches"
 #define kConfigurableItemTextFieldBeingEditedUseSender                      @"TextFieldBeingEditedUseSender"
