@@ -1,89 +1,154 @@
-# Tealeaf
+Tealeaf SDK for iOS
+========================
+[![SwiftPM compatible](https://img.shields.io/badge/SwiftPM-compatible-4BC51D.svg?style=flat)](https://swift.org/package-manager/)
+[![CocoaPods compatible](https://img.shields.io/cocoapods/v/Tealeaf.svg)](https://cocoapods.org/pods/Tealeaf)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![Platform](https://img.shields.io/cocoapods/p/Tealeaf.svg?style=flat)](https://developer.goacoustic.com/acoustic-exp-analytics/docs/acoustic-experience-analytics-tealeaf-sdk-for-ios-standard-and-mobile-editions)
 
-Tealeaf is a customer behavioral analytics SDK as documented [here](https://developer.goacoustic.com/acoustic-exp-analytics/docs/acoustic-experience-analytics-tealeaf-sdk-for-ios-standard-and-mobile-editions)
+Tealeaf overview
+-------------------------
 
-# Getting Started with Cocoapods
-## Prerequisites
+[Tealeaf](https://www.acoustic.com) is a customer behavioral analytics SDK as documented. [Get started](https://developer.goacoustic.com/acoustic-exp-analytics/docs/acoustic-experience-analytics-tealeaf-sdk-for-ios-standard-and-mobile-editions)
 
-You need to have recent cocoapods version installed on your Mac OS. Please refer to cocoapods website for the details.
+[![Twitter Follow](https://img.shields.io/twitter/follow/GoAcoustic.svg?style=social&label=Follow&maxAge=2592000)](https://twitter.com/intent/follow?screen_name=GoAcoustic)
 
-For SDK prerequisites and documentation, please refer to the SDK documentation [here](https://developer.goacoustic.com/acoustic-exp-analytics/docs/acoustic-experience-analytics-tealeaf-sdk-for-ios-standard-and-mobile-editions)
+Supported iOS and Xcode versions
+-------------------------
 
-## Installing
+This version of the Tealeaf SDK has been tested across iOS devices.
 
-Add following lines at the begining of your Podfile
+The LaunchDarkly iOS SDK requires the following minimum build tool versions:
 
->Set platform as iOS 9
->
->`platform :ios, '9.0'`
->
->Uncomment use_frameworks
->
->`use_frameworks!`
+| Tool  | Version |
+| ----- | ------- |
+| Xcode | 11.4+   |
+| Swift | 5.2+    |
 
-In the respective targets for your project in the Podfile add the following line if you want to use Tealeaf SDK's release version which needs to be used in your production version of your application.
+And supports the following device platforms:
 
->`pod 'Tealeaf'`
+| Platform | Version |
+| -------- | ------- |
+| iOS      | 12.0    |
 
-In the respective targets for your project in the Podfile add the following line if you want to use Tealeaf SDK's release version with version number. Otherwise you will get the beta version that might new feature or fixes which have not been full tested or approved.
+# Installation
 
->`pod 'TealeafDebug'`
+Tealeaf supports multiple methods for installing the library in a project. Once installed, head over to the [SDK documentation](https://developer.goacoustic.com/acoustic-exp-analytics/docs/acoustic-experience-analytics-tealeaf-sdk-for-ios-standard-and-mobile-editions) for complete instructions on getting started with using the SDK.
 
-Remember you can use only one of  `pod 'Tealeaf'` and `pod 'TealeafDebug'`. Do not use both at the same time.
+## Swift Package Manager
+-----------
 
-## Choosing A Suitable Hashing Library
-Starting Tealeaf version 10.6.20 onwards, the SDKs support 3 different hashing algorithms. SHA256, SHA512 and MD5; default being SHA256. If you want to use SHA256 no additional integration steps are required. Previously Tealeaf supported MD5 only and was the default algorithm. Apple is deprecating the MD5 APIs, hence we are moving to SHA2.
+The [Swift Package Manager](https://swift.org/package-manager/) is a dependency manager integrated into the `swift` compiler and Xcode.
 
-### Using SHA256
-No additional integration steps required. Tealeaf and TealeafDebug by default use SHA256.
+To integrate Tealeaf into an Xcode project, go to the project editor, and select `Swift Packages`. From here hit the `+` button and follow the prompts using  
 
-### Using SHA512
-Instead of `pod 'Tealeaf'` or `pod 'TealeafDebug'` in your Podfile, please use `pod 'Tealeaf/SHA512'` or `pod 'TealeafDebug/SHA512'`
-
-### Using MD5
-Instead of `pod 'Tealeaf'` or `pod 'TealeafDebug'` in your Podfile, please use `pod 'Tealeaf/MD5'` or `pod 'TealeafDebug/MD5'`
-
-### Important Note
-Please do use $(inherited) flag in your application target's "Other Linker Settings" This will ensure all the pods are linked correctly.
-
-When your application starts, MD5 and SHA512 hashing libraries print their versions in the console log. Forgetting to set $(inherited) flag can be one reason for it. If MD5 or SHA512 is not linked properly, Tealeaf will use built-in SHA256 default algorithm.
-
-You may read more about Hashing Libraries [here](https://developer.goacoustic.com/acoustic-exp-analytics/docs/hashing-libraries-for-computing-unique-ids-md5-sha256-and-sha512)
-
-# Getting Started with Carthage
-Open Cartfile in a text editor of your choice and note the following lines:
-
-In the respective targets for your project in the Podfile add the following line if you want to use Tealeaf SDK's release version
-
-`binary "https://raw.githubusercontent.com/acoustic-analytics/DigitalAnalytics/master/DAMod.json" >= 1.1.23`
-
-`binary "https://raw.githubusercontent.com/acoustic-analytics/EOCore/master/EOCore.json" >= 2.3.24`
-
-In the respective targets for your project in the Podfile add the following line if you want to use Tealeaf SDK's debug version
-
-`binary "https://raw.githubusercontent.com/acoustic-analytics/DigitalAnalytics/master/DAModDebug.json" >= 1.1.23`
-
-`binary "https://raw.githubusercontent.com/acoustic-analytics/EOCore/master/EOCoreDebug.json" >= 2.3.24`
-
-You will notice that by default the sample application uses `Debug` version of libraries.
-
-Note that you can use only one of  `Release` or `Debug`. Do not use both at the same time.
-
-Now you need to install the carthage by running the following command.
-
-`carthage update --platform iOS`
-
-Above carthage command should complete with no errors.
-
-# Getting Started with Swift Package
-Please go to 
 - Release library: https://github.com/acoustic-analytics/Tealeaf-SP
 - Debug library: https://github.com/acoustic-analytics/TealeafDebug-SP
-***
-## Uploading Application Images To Tealeaf Server (Only Needed for NonEnhanced Replay)
+
+ as the URL.
+
+To include Tealeaf in a Swift package, simply add it to the dependencies section of your `Package.swift` file. And add the library "Tealeaf" as a dependency for your targets.
+
+### Tealeaf Release for Package.swift
+Taken from https://github.com/acoustic-analytics/Tealeaf-SP/blob/master/Package.swift
+```swift
+platforms: [
+  .iOS(.v12)
+],
+products: [
+  // Products define the executables and libraries a package produces, and make them visible to other packages.
+  .library(
+    name: "Tealeaf",
+    targets: ["Tealeaf", "EOCore"]),
+],
+targets: [
+  // Most current release version
+  .binaryTarget(
+    name: "Tealeaf",
+    url: "https://github.com/acoustic-analytics/Tealeaf/releases/download/10.6.138/Tealeaf_XCFramework_Release.zip",
+    checksum: "d85b7f04d5fae7ea71c5a9a16b3a229b19f1bbb895c81fc1dec28a814806ab03"),
+  .binaryTarget(
+    name: "EOCore",
+    url: "https://github.com/acoustic-analytics/EOCore/releases/download/2.3.72/EOCore_XCFramework_Release.zip",
+    checksum: "f9e0e17504e09b1ea520bd82047944e5908abe25fe0d2a65c924973386542de5"),
+]
+```
+
+### Tealeaf Debug for Package.swift
+Taken from https://github.com/acoustic-analytics/TealeafDebug-SP/blob/master/Package.swift
+```swift
+platforms: [
+  .iOS(.v12)
+],
+products: [
+  // Products define the executables and libraries a package produces, and make them visible to other packages.
+  .library(
+    name: "Tealeaf",
+    targets: ["Tealeaf", "EOCore"]),
+],
+targets: [
+  // Most current release version
+  .binaryTarget(
+    name: "Tealeaf",
+    url: "https://github.com/acoustic-analytics/Tealeaf/releases/download/10.6.154/Tealeaf_XCFramework_Debug.zip",
+    checksum: "34a67b5805a69f1979e15d49926fff9dc81fef35b250e3dda90a6acba2bfaa14"),
+  .binaryTarget(
+    name: "EOCore",
+    url: "https://github.com/acoustic-analytics/EOCore/releases/download/2.3.197/EOCore_XCFramework_Debug.zip",
+    checksum: "7716300073f94135c12066e6afb5249ec091717ca126eaaa82b68a1ee7bab8f4"),
+]
+```
+
+## CocoaPods
+-----------
+To use the [CocoaPods](https://cocoapods.org) dependency manager to integrate Tealeaf into your Xcode project, specify it in your `Podfile`:
+
+### Tealeaf Release for CocoaPods
+```ruby
+use_frameworks!
+target 'YourTargetName' do
+  pod 'Tealeaf'
+end
+```
+
+### Tealeaf Debug for CocoaPods
+```ruby
+use_frameworks!
+target 'YourTargetName' do
+  pod 'TealeafDebug'
+end
+```
+
+## Carthage
+-----------
+To use the [Carthage](https://github.com/Carthage/Carthage) dependency manager to integrate Tealeaf into your Xcode project, specify it in your `Cartfile`:
+
+To integrate Tealeaf into your Xcode project using Carthage, specify it in your `Cartfile`:
+
+### Tealeaf Release for Carthage
+```ogdl
+binary "https://raw.githubusercontent.com/acoustic-analytics/Tealeaf/master/Tealeaf.json"
+binary "https://raw.githubusercontent.com/acoustic-analytics/EOCore/master/EOCore.json"
+```
+
+### Tealeaf Debug for Carthage
+```ogdl
+binary "https://raw.githubusercontent.com/acoustic-analytics/Tealeaf/master/TealeafDebug.json"
+binary "https://raw.githubusercontent.com/acoustic-analytics/EOCore/master/EOCoreDebug.json"
+```
+
+## Manual installation
+-----------
+If you prefer not to use the aforementioned dependency managers, it is possible to integrate the SDK manually.
+
+https://github.com/acoustic-analytics/Tealeaf/releases/latest
+https://github.com/acoustic-analytics/EOCore/releases/latest
+
+For release version download the zip that has "XCFramework_Release.zip" in name of the link or the zip that has "XCFramework_Debug.zip" in name of the link.
+
+# Uploading Application Images To Tealeaf Server (Only Needed for NonEnhanced Replay)
 Whichever hashing algorithm you choose, we recommend you repackage your application images and upload them to Tealeaf Server. Detailed steps are available [here](https://developer.goacoustic.com/acoustic-exp-analytics/docs/capturing-and-uploading-images-with-the-image-tool)
 
-## Troubleshooting
+# Troubleshooting
 If you are using Debug version of Tealeaf SDK. i.e. `pod 'TealeafDebug'` , then you may edit your project's scheme in XCode and add environmental variable `EODebug`and set its value to 1; also add environmental variable `TLF_DEBUG` and set its value to 1. This will make the SDK to start writing debug logs to your xcode console window. If and when you want to report issues, the Tealeaf support engineers will ask you for these logs.
 
 If you are getting an issue like using Cocoapods:
