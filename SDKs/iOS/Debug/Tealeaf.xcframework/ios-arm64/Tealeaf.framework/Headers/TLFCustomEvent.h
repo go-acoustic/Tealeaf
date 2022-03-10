@@ -1,5 +1,5 @@
 //
-// Copyright (C) 2021 Acoustic, L.P. All rights reserved.
+// Copyright (C) 2022 Acoustic, L.P. All rights reserved.
 //
 // NOTICE: This file contains material that is confidential and proprietary to
 // Acoustic, L.P. and/or other developers. No license is granted under any intellectual or
@@ -186,26 +186,62 @@
 -(BOOL)logClickEvent:(UIView*)view data:(NSDictionary*)data;
 
 /**
- Requests that the framework logs the UITableViewCell or UICollectionViewCell's content changed event
- @param view - UIView object on which the event occurred
- @param data - Any additional custom data that needs to be sent as a dictionary along with the event
+ Requests that the framework logs the click events on any UIControl or UIView. Click event is a normalized form of touch up inside event.
+ @param view - UIView object on which click event occurred.
+ @param controlId - The id of the control to be used.
+ @param data - any additional custom data that needs to be sent as a dictionary along with the click event.
+ @return if the event was successfully logged or not.
+ */
+-(BOOL)logClickEvent:(UIView*)view controlId:(NSString*)controlId data:(NSDictionary*)data;
+
+/**
+ Requests that the framework logs the UITableViewCell or UICollectionViewCell's content changed event.
+ @param view - UIView object on which the event occurred.
+ @param data - Any additional custom data that needs to be sent as a dictionary along with the event.
  @return if the event was successfully logged or not.
  */
 -(BOOL)logValueChangeEvent:(UIView*)view data:(NSDictionary*)data;
 
 /**
- Requests that the framework logs the edit event on UITextView, UITextViewSecure, UITextField or UITextFieldSecure
- @param view - UIView object on which edit event occurred
- @param data - any additional custom data that needs to be sent as a dictionary along with the event
+ Requests that the framework logs the UITableViewCell or UICollectionViewCell's content changed event.
+ @param view - UIView object on which the event occurred.
+ @param controlId - The id of the control to be used.
+ @param data - Any additional custom data that needs to be sent as a dictionary along with the event.
+ @return if the event was successfully logged or not.
+ */
+-(BOOL)logValueChangeEvent:(UIView*)view controlId:(NSString*)controlId data:(NSDictionary*)data;
+
+/**
+ Requests that the framework logs the edit event on UITextView, UITextViewSecure, UITextField or UITextFieldSecure.
+ @param view - UIView object on which edit event occurred.
+ @param data - any additional custom data that needs to be sent as a dictionary along with the event.
  @return if the event was successfully logged or not.
  */
 -(BOOL)logTextChangeEvent:(UIView*)view data:(NSDictionary*)data;
+
+/**
+ Requests that the framework logs the edit event on UITextView, UITextViewSecure, UITextField or UITextFieldSecure.
+ @param view - UIView object on which edit event occurred.
+ @param controlId - The id of the control to be used.
+ @param data - any additional custom data that needs to be sent as a dictionary along with the event.
+ @return if the event was successfully logged or not.
+ */
+-(BOOL)logTextChangeEvent:(UIView*)view controlId:(NSString*)controlId data:(NSDictionary*)data;
+
 /**
  This example shows how to log the text change event of a UILabel. The label will print out the previous state as well as the current state.
  @param label - The UILabel to be logged.
  @return if the event was successfully logged or not.
  */
 - (BOOL)logUILabelTextChange:(UILabel*)label;
+
+/**
+ This example shows how to log the text change event of a UILabel. The label will print out the previous state as well as the current state.
+ @param label - The UILabel to be logged.
+ @param controlId - The id of the control to be used.
+ @return if the event was successfully logged or not.
+ */
+- (BOOL)logUILabelTextChange:(UILabel*)label controlId:(NSString*)controlId;
 
 #pragma mark - Screenview
 /*!
@@ -299,14 +335,14 @@
  @return if the event was successfully logged or not.
  */
 -(BOOL)logScreenLayoutWithViewController:(UIViewController *)viewController andRelatedViews:(NSArray*)views andDelay:(CGFloat)delay andName:(NSString*)name;
-
-/**
- Requests that the framework logs the layout of the screen w/o logging a screenview change event
- @param viewController - UIViewController object whose layout needs to be logged.
- @param views - Array of related views to be logged
- @return if the event was successfully logged or not.
- */
--(BOOL)logScreenLayoutDynamicUpdateWithViewController:(UIViewController *)viewController andRelatedViews:(NSArray*)views ;
+// TODO - maybe not used comment out and remove later
+///**
+// Requests that the framework logs the layout of the screen w/o logging a screenview change event
+// @param viewController - UIViewController object whose layout needs to be logged.
+// @param views - Array of related views to be logged
+// @return if the event was successfully logged or not.
+// */
+//-(BOOL)logScreenLayoutDynamicUpdateWithViewController:(UIViewController *)viewController andRelatedViews:(NSArray*)views ;
 
 /**
  Message type to indicate form completion on view.
