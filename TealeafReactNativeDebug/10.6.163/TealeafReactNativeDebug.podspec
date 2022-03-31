@@ -18,12 +18,4 @@ Pod::Spec.new do |s|
     core.vendored_frameworks = 'SDKs/iOS/DebugTealeafReactNative/TealeafReactNative.xcframework'
     core.dependency 'EOCoreDebug'
   end
-  s.subspec 'MD5' do |md5|
-    md5.dependency 'TealeafMD5Debug'
-    md5.dependency 'TealeafDebug/Core'
-  end
-  s.subspec 'SHA512' do |sha512|
-    sha512.dependency 'TealeafSHA2Debug'
-    sha512.dependency 'TealeafDebug/Core'
-  end
 end
