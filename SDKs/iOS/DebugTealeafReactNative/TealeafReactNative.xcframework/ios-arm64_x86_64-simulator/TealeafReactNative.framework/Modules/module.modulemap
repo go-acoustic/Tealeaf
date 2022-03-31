@@ -1,4 +1,4 @@
-framework module Tealeaf {
+framework module TealeafReactNative {
     umbrella header "TealeafBridgingHeader.h"
     
     export *
