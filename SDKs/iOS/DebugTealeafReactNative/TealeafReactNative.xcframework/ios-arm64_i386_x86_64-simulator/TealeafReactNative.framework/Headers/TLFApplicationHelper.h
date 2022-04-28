@@ -163,38 +163,38 @@
 - (NSString*)applicationContextName;
 
 /**
- Set any application specific headers into each HTTP request to PostMessageURL
+ Set any application specific headers into each HTTP request to PostMessageUrl
  @param headers - Dictionary of headers with key value pairs to be sent over the HTTP Request.
  */
 - (void) setAdditionalHttpHeaders:(NSMutableDictionary*)headers;
 
 /**
- Set an application specific header into each HTTP request to PostMessageURL
+ Set an application specific header into each HTTP request to PostMessageUrl
  @param name - Header key name to be sent over the HTTP Request.
  @param value - Header value to be sent over the HTTP Request.
  */
 - (void) addAdditionalHttpHeader:(NSString*)value forName:(NSString*)name;
 
 /**
- Set any application specific cookies into each HTTP request to PostMessageURL
+ Set any application specific cookies into each HTTP request to PostMessageUrl
  @param cookies - Array of NSHTTPCookie objects to be sent over the HTTP Request.
  */
 - (void) setAdditionalHttpCookies:(NSMutableArray*)cookies;
 
 /**
- Set any application specific cookie into each HTTP request to PostMessageURL
+ Set any application specific cookie into each HTTP request to PostMessageUrl
  @param cookie - NSHTTPCookie object to be sent over the HTTP Request.
  */
 - (void) addAdditionalHttpCookie:(NSHTTPCookie*)cookie;
 
 /**
- Get all HTTP Headers that are sent with each HTTP request to PostMessageURL
+ Get all HTTP Headers that are sent with each HTTP request to PostMessageUrl
  @return Dictonary of HTTP Headers as key value pairs.
  */
 - (NSDictionary*) getAdditionalHttpHeaders;
 
 /**
- Get all HTTP cookies that are sent with each HTTP request to PostMessageURL
+ Get all HTTP cookies that are sent with each HTTP request to PostMessageUrl
  @return Array of HTTP Cookies as NSHTTPCookie objects.
  */
 - (NSArray*) getAdditionalHttpCookies;
