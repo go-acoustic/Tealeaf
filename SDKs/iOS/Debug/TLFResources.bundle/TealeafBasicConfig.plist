@@ -4,8 +4,6 @@
 <dict>
 	<key>AppKey</key>
 	<string>b6c3709b7a4c479bb4b5a9fb8fec324c</string>
-	<key>CaptureNativeGesturesOnWebview</key>
-	<false/>
 	<key>DisableAutoInstrumentation</key>
 	<false/>
 	<key>GetImageDataOnScreenLayout</key>
@@ -28,8 +26,6 @@
 	<string>id</string>
 	<key>LogLocationEnabled</key>
 	<false/>
-	<key>LogViewLayoutOnScreenTransition</key>
-	<true/>
 	<key>Masking</key>
 	<dict>
 		<key>Sensitive</key>

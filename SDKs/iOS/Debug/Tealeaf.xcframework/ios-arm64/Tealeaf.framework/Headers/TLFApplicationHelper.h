@@ -16,9 +16,6 @@
 #import <Tealeaf/TLFPublicDefinitions.h>
 #endif
 
-
-//#import <Tealeaf/TLFPublicDefinitions.h>
-
 @interface TLFApplicationHelper : NSObject <TLFLibDelegate, TLFApplicationHelperJSProtocol>
 
 @property(nonatomic, unsafe_unretained)NSObject<TLFLibDelegate> *TLFLibDelegate;
@@ -122,13 +119,6 @@
  @return the value of the configurable item.
  */
 - (id)valueForConfigurableItem:(NSString*)configItem;
-
-///**
-// Gets default value of a configurable item in TLFConfigurableItems.plist file.
-// @param configItem - the name of the configurable item. See TLFConfigurableItems.plist for a list of items.
-// @return the value of the configurable item.
-// */
-//- (id)defaultValueForConfigurableItem:(NSString*)configItem;
 
 /**
  Setup the Device ID.
