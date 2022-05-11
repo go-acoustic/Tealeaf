@@ -55,7 +55,6 @@ extern NSString* kTLFConnectionEvent;
 extern NSString* kTLFMobileStateEvent;
 
 // The configurable items, needs to match with keys of "TLFResources.bundle/TLFConfigurableItems.plist" file.
-#define kConfigurableItemLoggingLevel                                       @"LoggingLevel"
 #define kConfigurableItemCachingLevel                                       @"CachingLevel"
 #define kConfigurableItemCachedFileMaxBytesSize                             @"CachedFileMaxBytesSize"
 #define kConfigurableItemHasToPersistLocalCache                             @"HasToPersistLocalCache"
@@ -172,8 +171,6 @@ extern NSString* kTLFMobileStateEvent;
 - (CGRect)imageFrameTLFCustomControl;
 - (UIColor*)imageOpacityTLFCustomControl;
 - (UIColor*)imageBackgroundColorTLFCustomControl;
-
-//- (UIImage*)controlBackgroundImageTLFCustomControl;
 @end
 
 @protocol TLFCustomControlDelegateX <NSObject>

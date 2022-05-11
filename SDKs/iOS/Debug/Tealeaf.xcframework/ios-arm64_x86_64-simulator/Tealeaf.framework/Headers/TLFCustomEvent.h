@@ -335,14 +335,6 @@
  @return if the event was successfully logged or not.
  */
 -(BOOL)logScreenLayoutWithViewController:(UIViewController *)viewController andRelatedViews:(NSArray*)views andDelay:(CGFloat)delay andName:(NSString*)name;
-// TODO - maybe not used comment out and remove later
-///**
-// Requests that the framework logs the layout of the screen w/o logging a screenview change event
-// @param viewController - UIViewController object whose layout needs to be logged.
-// @param views - Array of related views to be logged
-// @return if the event was successfully logged or not.
-// */
-//-(BOOL)logScreenLayoutDynamicUpdateWithViewController:(UIViewController *)viewController andRelatedViews:(NSArray*)views ;
 
 /**
  Message type to indicate form completion on view.
@@ -374,9 +366,4 @@
  @return if the url was successfully added to UIImage or not.
  */
 -(BOOL)logImageUrl:(UIImage*)image withUrl:(NSString*)url;
-///**
-// Retrieves the current view controller that appear during view did appear.
-// @return current view controller that appear during view did appear.
-// */
-//-(UIViewController*)getCurrentDidAppearViewController;
 @end
