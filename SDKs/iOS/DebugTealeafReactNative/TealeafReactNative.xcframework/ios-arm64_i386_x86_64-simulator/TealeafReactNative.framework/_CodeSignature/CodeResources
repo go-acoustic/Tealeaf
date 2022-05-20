@@ -51,7 +51,7 @@
 		</data>
 		<key>Headers/TLFPublicDefinitions.h</key>
 		<data>
-		72xcSHJL7LXptKqDX+VBr6uNp5o=
+		GiMJB8/+7AlZbcwAcxP8Jh9TdVs=
 		</data>
 		<key>Headers/Tealeaf.h</key>
 		<data>
@@ -63,7 +63,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ORcd9LJQ04VchqVDuz2C/cDYrn8=
+		e7YgfGN8nMQsbu58R9NdcHpl674=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -71,7 +71,7 @@
 		</data>
 		<key>TLFResources.bundle/TealeafAdvancedConfig.json</key>
 		<data>
-		T+T6Fl2mSBtlyUBAq07WGwgYkLo=
+		dcat4on0c6H03XPsKsiglP3BIBc=
 		</data>
 		<key>TLFResources.bundle/TealeafBasicConfig.plist</key>
 		<data>
@@ -200,11 +200,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			72xcSHJL7LXptKqDX+VBr6uNp5o=
+			GiMJB8/+7AlZbcwAcxP8Jh9TdVs=
 			</data>
 			<key>hash2</key>
 			<data>
-			rQwsKafaNCUTUhRG8sNcvJikVvN07FEHSKZ8+gP5PfQ=
+			pG7grJfuavFwRqee8YcD3BGiCF3WQyIwwIivKK898xg=
 			</data>
 		</dict>
 		<key>Headers/Tealeaf.h</key>
@@ -244,11 +244,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			T+T6Fl2mSBtlyUBAq07WGwgYkLo=
+			dcat4on0c6H03XPsKsiglP3BIBc=
 			</data>
 			<key>hash2</key>
 			<data>
-			I5lkphedoW3Ii6cbnMHBJHaHRyRz7SiL454qPiQjNsA=
+			3Uo8jHpFR1c5cm9HwOvGXrUJS9m7Gr2I1NRXvKvGL9k=
 			</data>
 		</dict>
 		<key>TLFResources.bundle/TealeafBasicConfig.plist</key>

@@ -1,5 +1,5 @@
 {
-    "LibraryVersion": "10.6.174",
+    "LibraryVersion": "10.6.175",
     "FilterMessageTypes": false,
     "MessageTypes": "4,5,6",
     "AddMessageTypeHeader": true,
@@ -65,5 +65,6 @@
     "UIKeyboardCaptureTouches": false,
     "TextFieldBeingEditedUseSender": false,
     "RemoveSwiftUIDuplicates": true,
-    "LogFullRequestResponsePayloads": false
+    "LogFullRequestResponsePayloads": false,
+    "LogViewLayoutOnScreenTransition": true
 }
