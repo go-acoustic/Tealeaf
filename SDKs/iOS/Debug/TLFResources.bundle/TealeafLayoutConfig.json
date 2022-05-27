@@ -20,6 +20,31 @@
                     "symbol": "#"
                 },
                 "MaskIdList": [
+                ],
+                "MaskValueList": [
+                ]
+            }
+        },
+        "ExampleMaskingPage":{
+            "ScreenChange": false,
+            "DisplayName": "",
+            "CaptureLayoutDelay": 0,
+            "ScreenShot": false,
+            "NumberOfWebViews": 0,
+            "CaptureUserEvents": false,
+            "CaptureScreenVisits": false,
+            "CaptureLayoutOn": 0,
+            "CaptureScreenshotOn": 0,
+            "Masking": {
+                "HasMasking": true,
+                "HasCustomMask": true,
+                "Sensitive": {
+                    "capitalCaseAlphabet": "X",
+                    "number": "9",
+                    "smallCaseAlphabet": "x",
+                    "symbol": "#"
+                },
+                "MaskIdList": [
                     "^9[0-9][0-9][0-9]$",
                     "^\\[wvv,0\\],\\[dddv,0\\],\\[v,0\\],\\[v,0\\],\\[v,0\\],\\[b,0\\](.)*$"
                 ],
