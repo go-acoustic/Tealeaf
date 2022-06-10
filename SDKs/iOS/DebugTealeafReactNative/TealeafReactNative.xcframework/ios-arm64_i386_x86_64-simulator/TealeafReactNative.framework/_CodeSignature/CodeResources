@@ -6,11 +6,11 @@
 	<dict>
 		<key>AccessibilityResources.bundle/Info.plist</key>
 		<data>
-		D1iinyoFA8RPuEnrrfaj78AbhZw=
+		ZaFRogqrAiv4Qyt33Y5naAruehw=
 		</data>
 		<key>AccessibilityResources.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		Ejsv4Pm0xJHAmyqyVoDl/jhlFfw=
+		LmvvCx+ZY7LV8ELPAk5iz2EnwT0=
 		</data>
 		<key>AccessibilityResources.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>AccessibilityResources.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		8o/Z0aE6Igy+6krJCgIFkLl/q7Q=
+		fZsXLCGcW84KeqBOVGtE8gs4JL8=
 		</data>
 		<key>AccessibilityResources.bundle/_CodeSignature/CodeResources</key>
 		<data>
@@ -63,7 +63,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		sAAtgvFwqKEwCSllvXWcsgRFvX0=
+		2Ig4WOYbmQNg502cAuCvGnkTI+w=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -71,7 +71,7 @@
 		</data>
 		<key>TLFResources.bundle/TealeafAdvancedConfig.json</key>
 		<data>
-		pG0lIqTUbFXV56sqsuTB2sHQICo=
+		gEoCTKN1JSD6PX34Y1Fa7rRrNNk=
 		</data>
 		<key>TLFResources.bundle/TealeafBasicConfig.plist</key>
 		<data>
@@ -88,22 +88,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			D1iinyoFA8RPuEnrrfaj78AbhZw=
+			ZaFRogqrAiv4Qyt33Y5naAruehw=
 			</data>
 			<key>hash2</key>
 			<data>
-			/CCKlmA0I1vteFAnXLapiE2Ak+S1YasVjZ+pq27mr+M=
+			3UrY34+JJUilLkoNhQEQB+Fyqet9ay2ZcTKPWB4S1OU=
 			</data>
 		</dict>
 		<key>AccessibilityResources.bundle/_CodeSignature/CodeDirectory</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Ejsv4Pm0xJHAmyqyVoDl/jhlFfw=
+			LmvvCx+ZY7LV8ELPAk5iz2EnwT0=
 			</data>
 			<key>hash2</key>
 			<data>
-			/PV+QcOqkdvlPNYJw6cqh6noPJOUjtPis/iIScLRpBc=
+			oPMJ+PNkKXoHTH1etuK5mPj1oFHIcOCtG4m2IFM2wqk=
 			</data>
 		</dict>
 		<key>AccessibilityResources.bundle/_CodeSignature/CodeRequirements</key>
@@ -121,11 +121,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8o/Z0aE6Igy+6krJCgIFkLl/q7Q=
+			fZsXLCGcW84KeqBOVGtE8gs4JL8=
 			</data>
 			<key>hash2</key>
 			<data>
-			sUBvcRLQhjxDN0lmQDLRXdIiT5xxQUFc/PsZh4k+aEo=
+			kKL50tI+cymqaPXlbdCrr0iOx7IKW0vqO0sMlHG1hc4=
 			</data>
 		</dict>
 		<key>AccessibilityResources.bundle/_CodeSignature/CodeResources</key>
@@ -244,11 +244,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pG0lIqTUbFXV56sqsuTB2sHQICo=
+			gEoCTKN1JSD6PX34Y1Fa7rRrNNk=
 			</data>
 			<key>hash2</key>
 			<data>
-			8IVFCvLbGXd6XjElwfjPDVGEHGo/3LS/LuE6O9Mx530=
+			hQvNH1EP/GGzLAiVCbr3Ry+DCXSXjwp4ftzXwPNdo6k=
 			</data>
 		</dict>
 		<key>TLFResources.bundle/TealeafBasicConfig.plist</key>
