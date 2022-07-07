@@ -65,21 +65,21 @@
         "WEWKWebViewController": {
             "DisplayName": "WKWebView",
             "CaptureLayoutDelay": 500,
-            "ScreenShot": true,
+            "ScreenShot": false,
             "NumberOfWebViews": 1,
             "CaptureScreenshotOn": 0
         },
         "DoubleWebPageViewController": {
             "DisplayName": "Multi WKWebView",
             "CaptureLayoutDelay": 500,
-            "ScreenShot": true,
+            "ScreenShot": false,
             "NumberOfWebViews": 2,
             "CaptureScreenshotOn": 0
         },
         "WKCookieWebViewController": {
             "DisplayName": "WKCookieWebView",
             "CaptureLayoutDelay": 500,
-            "ScreenShot": true,
+            "ScreenShot": false,
             "NumberOfWebViews": 1,
             "CaptureScreenshotOn": 0
         }
