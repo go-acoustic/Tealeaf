@@ -1,5 +1,5 @@
 //
-// Copyright (C) 2021 Acoustic, L.P. All rights reserved.
+// Copyright (C) 2022 Acoustic, L.P. All rights reserved.
 //
 // NOTICE: This file contains material that is confidential and proprietary to
 // Acoustic, L.P. and/or other developers. No license is granted under any intellectual or
@@ -9,7 +9,12 @@
 //
 #import <Foundation/Foundation.h>
 #import <WebKit/WebKit.h>
+
+#if TEALEAF_USE_REACT
 #import <TealeafReactNative/TLFPublicDefinitions.h>
+#else
+#import <TealeafReactNative/TLFPublicDefinitions.h>
+#endif
 
 @interface TLFApplicationHelper : NSObject <TLFLibDelegate, TLFApplicationHelperJSProtocol>
 
@@ -115,13 +120,6 @@
  */
 - (id)valueForConfigurableItem:(NSString*)configItem;
 
-///**
-// Gets default value of a configurable item in TLFConfigurableItems.plist file.
-// @param configItem - the name of the configurable item. See TLFConfigurableItems.plist for a list of items.
-// @return the value of the configurable item.
-// */
-//- (id)defaultValueForConfigurableItem:(NSString*)configItem;
-
 /**
  Setup the Device ID.
  @param value - the string which represents the new Device ID.
@@ -155,38 +153,38 @@
 - (NSString*)applicationContextName;
 
 /**
- Set any application specific headers into each HTTP request to PostMessageURL
+ Set any application specific headers into each HTTP request to PostMessageUrl
  @param headers - Dictionary of headers with key value pairs to be sent over the HTTP Request.
  */
 - (void) setAdditionalHttpHeaders:(NSMutableDictionary*)headers;
 
 /**
- Set an application specific header into each HTTP request to PostMessageURL
+ Set an application specific header into each HTTP request to PostMessageUrl
  @param name - Header key name to be sent over the HTTP Request.
  @param value - Header value to be sent over the HTTP Request.
  */
 - (void) addAdditionalHttpHeader:(NSString*)value forName:(NSString*)name;
 
 /**
- Set any application specific cookies into each HTTP request to PostMessageURL
+ Set any application specific cookies into each HTTP request to PostMessageUrl
  @param cookies - Array of NSHTTPCookie objects to be sent over the HTTP Request.
  */
 - (void) setAdditionalHttpCookies:(NSMutableArray*)cookies;
 
 /**
- Set any application specific cookie into each HTTP request to PostMessageURL
+ Set any application specific cookie into each HTTP request to PostMessageUrl
  @param cookie - NSHTTPCookie object to be sent over the HTTP Request.
  */
 - (void) addAdditionalHttpCookie:(NSHTTPCookie*)cookie;
 
 /**
- Get all HTTP Headers that are sent with each HTTP request to PostMessageURL
+ Get all HTTP Headers that are sent with each HTTP request to PostMessageUrl
  @return Dictonary of HTTP Headers as key value pairs.
  */
 - (NSDictionary*) getAdditionalHttpHeaders;
 
 /**
- Get all HTTP cookies that are sent with each HTTP request to PostMessageURL
+ Get all HTTP cookies that are sent with each HTTP request to PostMessageUrl
  @return Array of HTTP Cookies as NSHTTPCookie objects.
  */
 - (NSArray*) getAdditionalHttpCookies;

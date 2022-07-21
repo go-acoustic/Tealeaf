@@ -1,5 +1,5 @@
 //
-// Copyright (C) 2021 Acoustic, L.P. All rights reserved.
+// Copyright (C) 2022 Acoustic, L.P. All rights reserved.
 //
 // NOTICE: This file contains material that is confidential and proprietary to
 // Acoustic, L.P. and/or other developers. No license is granted under any intellectual or
@@ -55,13 +55,12 @@ extern NSString* kTLFConnectionEvent;
 extern NSString* kTLFMobileStateEvent;
 
 // The configurable items, needs to match with keys of "TLFResources.bundle/TLFConfigurableItems.plist" file.
-#define kConfigurableItemLoggingLevel                                       @"LoggingLevel"
 #define kConfigurableItemCachingLevel                                       @"CachingLevel"
 #define kConfigurableItemCachedFileMaxBytesSize                             @"CachedFileMaxBytesSize"
 #define kConfigurableItemHasToPersistLocalCache                             @"HasToPersistLocalCache"
 #define kConfigurableItemPostMessageLevelWifi                               @"PostMessageLevelWiFi"
 #define kConfigurableItemPostMessageLevelCellular                           @"PostMessageLevelCellular"
-#define kConfigurableItemPostMessageUrl                                     @"PostMessageURL"
+#define kConfigurableItemPostMessageUrl                                     @"PostMessageUrl"
 #define kConfigurableItemPostMessageTimeIntervals                           @"PostMessageTimeIntervals"
 #define kConfigurableItemPostMessageMaxBytesSize                            @"PostMessageMaxBytesSize"
 #define kConfigurableItemPostMessageSecondLevel                             @"PostMessageSecondLevel"
@@ -94,12 +93,10 @@ extern NSString* kTLFMobileStateEvent;
 #define kConfigurableItemSessionTimeout                                     @"SessionTimeout"
 #define kConfigurableItemAddMessageTypeHeader                               @"AddMessageTypeHeader"
 #define kConfigurableItemMessageTypeHeader                                  @"MessageTypeHeader"
-#define kConfigurableItemLogViewLayoutOnScreenTransition	                @"LogViewLayoutOnScreenTransition"
 #define kConfigurableItemGetImageDataOnScreenLayout                         @"GetImageDataOnScreenLayout"
 #define kConfigurableItemSessionizationCookieName                           @"SessionizationCookieName"
 #define kConfigurableItemSessionizationCookieSecure                         @"CookieSecure"
 #define kConfigurableItemSetGestureDetector                                 @"SetGestureDetector"
-#define kConfigurableItemCaptureNativeGesturesOnWebview                     @"CaptureNativeGesturesOnWebview"
 #define kConfigurableItemLogLocationEnabled                                 @"LogLocationEnabled"
 #define kConfigurableItemSaasAppKey                                         @"AppKey"
 #define kConfigurableItemAppendMapIDs                                       @"AppendMapIds"
@@ -122,11 +119,13 @@ extern NSString* kTLFMobileStateEvent;
 #define kConfigurableItemAddGestureRecognizerUIPickerView                   @"AddGestureRecognizerUIPickerView"
 #define kConfigurableItemAddGestureRecognizerUIDatePicker                   @"AddGestureRecognizerUIDatePicker"
 #define kConfigurableItemAddGestureRecognizerUIPageControl                  @"AddGestureRecognizerUIPageControl"
+#define kConfigurableItemAddGestureRecognizerWKWebView                      @"AddGestureRecognizerWKWebView"
 #define kConfigurableItemSwiftUICaptureNonVariadic                          @"SwiftUICaptureNonVariadic"
 #define kConfigurableItemUIKeyboardCaptureTouches                           @"UIKeyboardCaptureTouches"
 #define kConfigurableItemTextFieldBeingEditedUseSender                      @"TextFieldBeingEditedUseSender"
 #define kConfigurableItemRemoveSwiftUIDuplicates                            @"RemoveSwiftUIDuplicates"
 #define kConfigurableItemLogFullRequestResponsePayloads                     @"LogFullRequestResponsePayloads"
+#define kConfigurableItemLogViewLayoutOnScreenTransition                    @"LogViewLayoutOnScreenTransition"
 
 // TLF Public Protocols
 @protocol TLFSavePrintScreenOperationDelegate <NSObject>
@@ -173,8 +172,6 @@ extern NSString* kTLFMobileStateEvent;
 - (CGRect)imageFrameTLFCustomControl;
 - (UIColor*)imageOpacityTLFCustomControl;
 - (UIColor*)imageBackgroundColorTLFCustomControl;
-
-//- (UIImage*)controlBackgroundImageTLFCustomControl;
 @end
 
 @protocol TLFCustomControlDelegateX <NSObject>

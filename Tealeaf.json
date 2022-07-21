@@ -1,8 +1,9 @@
 {
-    "10.6.42": "https://github.com/acoustic-analytics/IBMTealeaf/releases/download/10.6.42/Tealeaf.zip",
-    "10.6.40": "https://github.com/acoustic-analytics/IBMTealeaf/releases/download/10.6.40/Tealeaf.zip",
-    "10.6.36": "https://github.com/acoustic-analytics/IBMTealeaf/releases/download/10.6.36/Tealeaf.zip",
     "10.6.137": "https://github.com/acoustic-analytics/Tealeaf/releases/download/10.6.137/TealeafRelease.zip",
     "10.6.138": "https://github.com/acoustic-analytics/Tealeaf/releases/download/10.6.138/TealeafRelease.zip",
-    "10.6.144": "https://github.com/acoustic-analytics/Tealeaf/releases/download/10.6.144/TealeafRelease.zip"
+    "10.6.144": "https://github.com/acoustic-analytics/Tealeaf/releases/download/10.6.144/TealeafRelease.zip",
+    "10.6.201": "https://github.com/acoustic-analytics/Tealeaf/releases/download/10.6.201/TealeafRelease.zip",
+    "10.6.36": "https://github.com/acoustic-analytics/IBMTealeaf/releases/download/10.6.36/Tealeaf.zip",
+    "10.6.40": "https://github.com/acoustic-analytics/IBMTealeaf/releases/download/10.6.40/Tealeaf.zip",
+    "10.6.42": "https://github.com/acoustic-analytics/IBMTealeaf/releases/download/10.6.42/Tealeaf.zip"
 }

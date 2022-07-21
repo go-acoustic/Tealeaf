@@ -1,5 +1,5 @@
 //
-// Copyright (C) 2017 Acoustic, L.P. All rights reserved.
+// Copyright (C) 2022 Acoustic, L.P. All rights reserved.
 //
 // NOTICE: This file contains material that is confidential and proprietary to
 // Acoustic, L.P. and/or other developers. No license is granted under any intellectual or
@@ -11,6 +11,7 @@
 #ifndef TealeafBridgingHeader_h
 #define TealeafBridgingHeader_h
 
+#import "Tealeaf.h"
 #import "TLFApplication.h"
 #import "TLFApplicationHelper.h"
 #import "TLFCustomEvent.h"
