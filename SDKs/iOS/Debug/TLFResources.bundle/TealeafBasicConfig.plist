@@ -19,7 +19,7 @@
 	<key>KillSwitchTimeout</key>
 	<integer>5</integer>
 	<key>KillSwitchUrl</key>
-	<string>https://lib-us-2.brilliantcollector.com/collector/switch/b6c3709b7a4c479bb4b5a9fb8fec324c</string>
+	<string></string>
 	<key>UseWhiteList</key>
 	<false/>
 	<key>WhiteListParam</key>
