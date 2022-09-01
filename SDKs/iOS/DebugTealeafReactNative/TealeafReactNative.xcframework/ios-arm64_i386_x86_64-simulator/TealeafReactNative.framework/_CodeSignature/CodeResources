@@ -63,7 +63,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		bpgJk6/FOcoiykFGQyKFxJ4JIYs=
+		32sGsCBRpmTulvT7V7tUwzG0M7w=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -71,11 +71,11 @@
 		</data>
 		<key>TLFResources.bundle/TealeafAdvancedConfig.json</key>
 		<data>
-		kHbK0xSDZStmEDQUrz3HHxUiOj0=
+		WsUTY7rjfhWUbePR25XglIv4IZs=
 		</data>
 		<key>TLFResources.bundle/TealeafBasicConfig.plist</key>
 		<data>
-		iRrrQapeJrFoaezYLI7Hn0Z4SEU=
+		KOl9ZhiKA4BGJ5JQhiUxZSMb4c4=
 		</data>
 		<key>TLFResources.bundle/TealeafLayoutConfig.json</key>
 		<data>
@@ -244,22 +244,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kHbK0xSDZStmEDQUrz3HHxUiOj0=
+			WsUTY7rjfhWUbePR25XglIv4IZs=
 			</data>
 			<key>hash2</key>
 			<data>
-			tE7z7sod4UOX0QouNkuovD9Z0Gpft1YGz4nXQINH6oQ=
+			oL/ARflt0o5+UCCxtQMLl0Gk59rAkCVWKpngQ1uRidM=
 			</data>
 		</dict>
 		<key>TLFResources.bundle/TealeafBasicConfig.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			iRrrQapeJrFoaezYLI7Hn0Z4SEU=
+			KOl9ZhiKA4BGJ5JQhiUxZSMb4c4=
 			</data>
 			<key>hash2</key>
 			<data>
-			A6JOn3+Ic/xdwiHHUG2vxXiLSR8wpqsrK9JRF2T+to8=
+			voIf/KMMM12jXwlO9alqi4kNshI4koKcyc37ojh36eU=
 			</data>
 		</dict>
 		<key>TLFResources.bundle/TealeafLayoutConfig.json</key>
