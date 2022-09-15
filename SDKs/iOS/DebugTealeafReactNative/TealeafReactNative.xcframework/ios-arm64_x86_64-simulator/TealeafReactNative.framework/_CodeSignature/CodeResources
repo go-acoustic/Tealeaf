@@ -6,11 +6,11 @@
 	<dict>
 		<key>AccessibilityResources.bundle/Info.plist</key>
 		<data>
-		vkqr+M8AjhD5hcctY667RmrU+FQ=
+		PVCNTiLGuEVor54vGjxAow4U+94=
 		</data>
 		<key>AccessibilityResources.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		QXKZBMfN43fuRxgK/Hnpmr6CklA=
+		hO45pLIQyGo4AAreRY5VYpjkhdc=
 		</data>
 		<key>AccessibilityResources.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>AccessibilityResources.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		1QAOeqNJrFNYI036RECaFs418YE=
+		f9W0J1MSpXQg9Wdh2cmsrVjrzpY=
 		</data>
 		<key>AccessibilityResources.bundle/_CodeSignature/CodeResources</key>
 		<data>
@@ -63,7 +63,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		tkcerI8DeQk2kQwtwgIMdc/yIAg=
+		8Yl1FHJaA2J53VtEqAy4XeuDmmM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -71,7 +71,7 @@
 		</data>
 		<key>TLFResources.bundle/TealeafAdvancedConfig.json</key>
 		<data>
-		U8dZZZnyEvWyhaDX4kI9PkXTkjY=
+		8p8XuldFo91FviGAgQ4gdXW2cPs=
 		</data>
 		<key>TLFResources.bundle/TealeafBasicConfig.plist</key>
 		<data>
@@ -88,14 +88,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			e5ThMcPIvfLYzbKs+BJUjknrpmucFmoTmtBXOI8EvrI=
+			tXbMaKK6e2gq5Olo2zerkEe/uskLa/OuYvxEbgeJgd0=
 			</data>
 		</dict>
 		<key>AccessibilityResources.bundle/_CodeSignature/CodeDirectory</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			P2jdYu0AZ1x9B01ZIe1UO/AW+12SlPwJd9neU839Pl8=
+			Jucli/LgVtL5cVbUgZgPv36IB09nDPJywl32EOPgUnU=
 			</data>
 		</dict>
 		<key>AccessibilityResources.bundle/_CodeSignature/CodeRequirements</key>
@@ -109,7 +109,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XEHe04EMsIlm2NpKUTBInABrGL5soVfp9hbV+CMDZs8=
+			7TwjwUsUJGgiJDohwuCZANk6Mbj3fEP+aaFN8eqYVQU=
 			</data>
 		</dict>
 		<key>AccessibilityResources.bundle/_CodeSignature/CodeResources</key>
@@ -188,7 +188,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yDtcdn4FmajShPsVdn08nggOv1fhpipfZbLFVe5mEpw=
+			0K+bZmJ1P6jR7joPPQt877P1G1MaIZt16Br2CHYnmuA=
 			</data>
 		</dict>
 		<key>TLFResources.bundle/TealeafBasicConfig.plist</key>
