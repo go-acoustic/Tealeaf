@@ -6,7 +6,7 @@
 	<dict>
 		<key>AccessibilityResources.bundle/Info.plist</key>
 		<data>
-		0hLtFK5U5let6dSyHpoiAcBYazw=
+		O6fpYUYVTV3rN6xnQaqpMG5vrZE=
 		</data>
 		<key>AccessibilityResources.bundle/en.lproj/Localizable.strings</key>
 		<dict>
@@ -43,7 +43,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		bT9T6XyQTw49/xC0zRfZ0olM+ig=
+		B1AtkmuZwrZCBuKMTNJJEU1XG3w=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,7 +51,7 @@
 		</data>
 		<key>TLFResources.bundle/TealeafAdvancedConfig.json</key>
 		<data>
-		IQz0zSWaGEyChmoVrAJefL722N0=
+		qd6QVTukpfIpER8vgB3hINDCRhQ=
 		</data>
 		<key>TLFResources.bundle/TealeafBasicConfig.plist</key>
 		<data>
@@ -68,7 +68,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UFlJC8SkcsRXk4iNNbEFn5tgX2B6pPDeT2N7NZ89tEs=
+			VlDsozBDVm2X7sb9zbBJbBlDlzAT9D4i0aHaJTZhZs4=
 			</data>
 		</dict>
 		<key>AccessibilityResources.bundle/en.lproj/Localizable.strings</key>
@@ -133,7 +133,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6GN26M5vDgvrQ5B3ykyJfP8mCDVCvExfb+aUMPUl4zU=
+			qSSPHwk+guNsjPDoUKHRs77k9ufE2UQjpJ3Pu0IsWzA=
 			</data>
 		</dict>
 		<key>TLFResources.bundle/TealeafBasicConfig.plist</key>
