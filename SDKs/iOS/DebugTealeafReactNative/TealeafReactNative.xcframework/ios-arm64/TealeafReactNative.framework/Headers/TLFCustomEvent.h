@@ -109,6 +109,17 @@
  */
 - (BOOL)logNSErrorEvent:(NSError *)error message:(NSString *)message file:(const char *)file line:(unsigned int)line level:(kTLFMonitoringLevelType)level;
 
+/*!
+ @brief Log a Swift fatalError
+ @discussion In the event of a fatalError has been generated this API allows for the logging of the error and flush back data captured.
+ @param error - the error to be logged.
+ @param message - additional information to be logged with the error.
+ @param file - the file in which the Error occured. Can be caputured by passing  __FILE__ to the paramater.
+ @param line - the line in which the Error occured. Can be caputured by passing  __LINE__ to the paramater.
+ @return BOOL Whether the message was successfully logged or not
+ */
+- (BOOL)logFatalErrorEvent:(NSError *)error message:(NSString *)message file:(const char *)file line:(unsigned int)line;
+
 #pragma mark - Network Logging
 /*!
  @brief Requests that the framework logs the connection information.
