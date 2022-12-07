@@ -110,6 +110,52 @@
 - (BOOL)logNSErrorEvent:(NSError *)error message:(NSString *)message file:(const char *)file line:(unsigned int)line level:(kTLFMonitoringLevelType)level;
 
 /*!
+ @brief Log a Swift assert
+ @discussion In the event of an assert has been generated this API allows for the logging of the error and flush back data captured.
+ @param error - the error to be logged.
+ @param condition - condition to be logged.
+ @param message - additional information to be logged with the error.
+ @param file - the file in which the Error occured. Can be caputured by passing  __FILE__ to the paramater.
+ @param line - the line in which the Error occured. Can be caputured by passing  __LINE__ to the paramater.
+ @return BOOL Whether the message was successfully logged or not
+ */
+- (BOOL)logAssertErrorEvent:(NSError *)error condition:(Boolean)condition message:(NSString *)message file:(const char *)file line:(unsigned int)line;
+
+/*!
+ @brief Log a Swift precondition
+ @discussion In the event of a precondition has been generated this API allows for the logging of the error and flush back data captured.
+ @param error - the error to be logged.
+ @param condition - condition to be logged.
+ @param message - additional information to be logged with the error.
+ @param file - the file in which the Error occured. Can be caputured by passing  __FILE__ to the paramater.
+ @param line - the line in which the Error occured. Can be caputured by passing  __LINE__ to the paramater.
+ @return BOOL Whether the message was successfully logged or not
+ */
+- (BOOL)logPreconditionErrorEvent:(NSError *)error condition:(Boolean)condition message:(NSString *)message file:(const char *)file line:(unsigned int)line;
+
+/*!
+ @brief Log a Swift AssertionFailure
+ @discussion In the event of a AssertionFailure has been generated this API allows for the logging of the error and flush back data captured.
+ @param error - the error to be logged.
+ @param message - additional information to be logged with the error.
+ @param file - the file in which the Error occured. Can be caputured by passing  __FILE__ to the paramater.
+ @param line - the line in which the Error occured. Can be caputured by passing  __LINE__ to the paramater.
+ @return BOOL Whether the message was successfully logged or not
+ */
+- (BOOL)logAssertionFailureErrorEvent:(NSError *)error message:(NSString *)message file:(const char *)file line:(unsigned int)line;
+
+/*!
+ @brief Log a Swift PreconditionFailure
+ @discussion In the event of a PreconditionFailure has been generated this API allows for the logging of the error and flush back data captured.
+ @param error - the error to be logged.
+ @param message - additional information to be logged with the error.
+ @param file - the file in which the Error occured. Can be caputured by passing  __FILE__ to the paramater.
+ @param line - the line in which the Error occured. Can be caputured by passing  __LINE__ to the paramater.
+ @return BOOL Whether the message was successfully logged or not
+ */
+- (BOOL)logPreconditionFailureErrorEvent:(NSError *)error message:(NSString *)message file:(const char *)file line:(unsigned int)line;
+
+/*!
  @brief Log a Swift fatalError
  @discussion In the event of a fatalError has been generated this API allows for the logging of the error and flush back data captured.
  @param error - the error to be logged.
