@@ -311,11 +311,13 @@
 /*!
  @brief Requests that the framework logs an application context.
  @param logicalPageName - Page name or title e.g. "Login View Controller"; Must not be empty.
+ @param clsss - Class of UIViewcontroller; Must not be empty.
  @param screenViewType - valid values are TLFScreenViewTypeLoad or TLFScreenViewTypeUnload; Must not be empty.
  @param referrer - Page name or title that loads logicalPageName. Could be empty.
  @return BOOL If the event was successfully logged or not.
  */
 -(BOOL)logScreenViewContext:(NSString*)logicalPageName
+                  withClass:(NSString *)clsss
   applicationContext:(TLFScreenViewType)screenViewType
             referrer:(NSString*)referrer;
 
