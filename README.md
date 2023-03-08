@@ -13,9 +13,9 @@ For SDK prerequisites and documentation, please refer to the SDK documentation [
 
 Add following lines at the begining of your Podfile
 
->Set platform as iOS 9
+>Set platform as iOS 12
 >
->`platform :ios, '9.0'`
+>`platform :ios, '12.0'`
 >
 >Uncomment use_frameworks
 >
