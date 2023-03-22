@@ -1,5 +1,5 @@
 //
-// Copyright (C) 2022 Acoustic, L.P. All rights reserved.
+// Copyright (C) 2023 Acoustic, L.P. All rights reserved.
 //
 // NOTICE: This file contains material that is confidential and proprietary to
 // Acoustic, L.P. and/or other developers. No license is granted under any intellectual or
@@ -31,6 +31,14 @@
  * @return Returns YES or NO based on whether the framework was successfully enabled or not.
  */
 - (BOOL)enableTealeafFramework;
+
+/*!
+ * @abstract Turns on the Tealeaf framework
+ * @param appKey - The string representation of the application key.
+ * @param postUrl - The string representation of the post message URL, colloector, target page.
+ * @return Returns YES or NO based on whether the framework was successfully enabled or not and update values.
+ */
+- (BOOL)enableTealeafFramework:(NSString*)appKey withPostMessageUrl:(NSString*)postUrl;
 
 /**
  * @abstract Turns off the Tealeaf Framework.
