@@ -59,6 +59,13 @@
 - (BOOL)resumeTealeaf;
 
 /**
+ * @abstract Resumes capture of data on the Tealeaf framework
+ * @param pageName - The current page name to be used.
+ * @return Returns YES or NO based on whether the framework was successfully resumed or not.
+ */
+- (BOOL)resumeTealeaf:(NSString*)pageName;
+
+/**
  Setup the Kill Switch URL. This is the URL to be checked when the framework initializes. If the page is not reachable the framework will not initialize. Setting the URL will update the configurable plist file for that user's device.
  @param value - The string representation of the new Kill Switch URL.
  */
