@@ -47,6 +47,13 @@
 - (BOOL)disableTealeafFramework;
 
 /*!
+ * @abstract Set up react native flag.
+ * @param isReactN - Whether it is a react native application.
+ * @return Returns YES or NO based on whether it is react native.
+ */
+- (BOOL)isReactNative:(BOOL)isReactN;
+
+/*!
  * @abstract Pauses capture of data on the Tealeaf framework
  * @return Returns YES or NO based on whether the framework was successfully paused or not.
  */
