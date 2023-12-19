@@ -125,6 +125,7 @@ extern NSString* kTLFMobileStateEvent;
 #define kConfigurableItemRemoveSwiftUIDuplicates                            @"RemoveSwiftUIDuplicates"
 #define kConfigurableItemLogFullRequestResponsePayloads                     @"LogFullRequestResponsePayloads"
 #define kConfigurableItemLogViewLayoutOnScreenTransition                    @"LogViewLayoutOnScreenTransition"
+#define kConfigurableItemDisableTLTDID                                      @"disableTLTDID"
 
 // TLF Public Protocols
 @protocol TLFSavePrintScreenOperationDelegate <NSObject>
