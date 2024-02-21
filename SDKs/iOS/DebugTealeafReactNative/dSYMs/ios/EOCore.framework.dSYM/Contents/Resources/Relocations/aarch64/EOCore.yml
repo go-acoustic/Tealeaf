@@ -332,8 +332,8 @@ relocations:
   - { offsetInCU: 0xC33, offset: 0xAF19, size: 0x8, addend: 0x0, symName: '-[EOApplicationContextMessage .cxx_destruct]', symObjAddr: 0x3090, symBinAddr: 0x1C264, symSize: 0x88 }
   - { offsetInCU: 0x27, offset: 0xB53D, size: 0x8, addend: 0x0, symName: '+[EOQueueService sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x1C2EC, symSize: 0xB4 }
   - { offsetInCU: 0x34, offset: 0xB54A, size: 0x8, addend: 0x0, symName: '+[EOQueueService sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x1C2EC, symSize: 0xB4 }
-  - { offsetInCU: 0x5D, offset: 0xB573, size: 0x8, addend: 0x0, symName: _sharedInstance._singletonPredicate, symObjAddr: 0x30F48, symBinAddr: 0xA4BD0, symSize: 0x0 }
-  - { offsetInCU: 0x72, offset: 0xB588, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0x30F50, symBinAddr: 0xA4BD8, symSize: 0x0 }
+  - { offsetInCU: 0x5D, offset: 0xB573, size: 0x8, addend: 0x0, symName: _sharedInstance._singletonPredicate, symObjAddr: 0x30F50, symBinAddr: 0xA4BD0, symSize: 0x0 }
+  - { offsetInCU: 0x72, offset: 0xB588, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0x30F58, symBinAddr: 0xA4BD8, symSize: 0x0 }
   - { offsetInCU: 0x418, offset: 0xB92E, size: 0x8, addend: 0x0, symName: '-[EOQueueService enable]', symObjAddr: 0x20C, symBinAddr: 0x1C4F8, symSize: 0xA8C }
   - { offsetInCU: 0x441, offset: 0xB957, size: 0x8, addend: 0x0, symName: _enable.eoDebug, symObjAddr: 0x1D9D8, symBinAddr: 0xA4128, symSize: 0x0 }
   - { offsetInCU: 0x456, offset: 0xB96C, size: 0x8, addend: 0x0, symName: _enable.eoDebugKiwi, symObjAddr: 0x1D9DC, symBinAddr: 0xA412C, symSize: 0x0 }
@@ -1059,8 +1059,8 @@ relocations:
   - { offsetInCU: 0x567, offset: 0x1EE66, size: 0x8, addend: 0x0, symName: '+[EODataCompression load]', symObjAddr: 0x0, symBinAddr: 0x600E0, symSize: 0x50 }
   - { offsetInCU: 0x27, offset: 0x1F4C1, size: 0x8, addend: 0x0, symName: '+[EOConfigService sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x61654, symSize: 0xB4 }
   - { offsetInCU: 0x34, offset: 0x1F4CE, size: 0x8, addend: 0x0, symName: '+[EOConfigService sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x61654, symSize: 0xB4 }
-  - { offsetInCU: 0x5D, offset: 0x1F4F7, size: 0x8, addend: 0x0, symName: _sharedInstance._singletonPredicate, symObjAddr: 0x2B6E8, symBinAddr: 0xA4C10, symSize: 0x0 }
-  - { offsetInCU: 0x72, offset: 0x1F50C, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0x2B6F0, symBinAddr: 0xA4C18, symSize: 0x0 }
+  - { offsetInCU: 0x5D, offset: 0x1F4F7, size: 0x8, addend: 0x0, symName: _sharedInstance._singletonPredicate, symObjAddr: 0x2B6F0, symBinAddr: 0xA4C10, symSize: 0x0 }
+  - { offsetInCU: 0x72, offset: 0x1F50C, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0x2B6F8, symBinAddr: 0xA4C18, symSize: 0x0 }
   - { offsetInCU: 0x1AD, offset: 0x1F647, size: 0x8, addend: 0x0, symName: '-[EOConfigService enable]', symObjAddr: 0x1E8, symBinAddr: 0x6183C, symSize: 0x4B4 }
   - { offsetInCU: 0x1D6, offset: 0x1F670, size: 0x8, addend: 0x0, symName: _enable.eoDebug, symObjAddr: 0x1A330, symBinAddr: 0xA4930, symSize: 0x0 }
   - { offsetInCU: 0x1EB, offset: 0x1F685, size: 0x8, addend: 0x0, symName: _enable.eoDebugKiwi, symObjAddr: 0x1A334, symBinAddr: 0xA4934, symSize: 0x0 }

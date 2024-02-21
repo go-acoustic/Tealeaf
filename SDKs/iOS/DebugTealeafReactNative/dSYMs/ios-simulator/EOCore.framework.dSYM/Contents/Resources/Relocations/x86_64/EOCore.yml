@@ -70,8 +70,8 @@ relocations:
   - { offsetInCU: 0x381, offset: 0x251D, size: 0x8, addend: 0x0, symName: '_daQueryItemsForCharset:.eoMiCloudSDKMachine', symObjAddr: 0x31B4, symBinAddr: 0xB3F40, symSize: 0x0 }
   - { offsetInCU: 0x27, offset: 0x2F1F, size: 0x8, addend: 0x0, symName: '+[EONetworkManager sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x95E0, symSize: 0xB0 }
   - { offsetInCU: 0x34, offset: 0x2F2C, size: 0x8, addend: 0x0, symName: '+[EONetworkManager sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x95E0, symSize: 0xB0 }
-  - { offsetInCU: 0x5D, offset: 0x2F55, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x8BF8, symBinAddr: 0xB4D00, symSize: 0x0 }
-  - { offsetInCU: 0x72, offset: 0x2F6A, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0x8C00, symBinAddr: 0xB4D08, symSize: 0x0 }
+  - { offsetInCU: 0x5D, offset: 0x2F55, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x8C00, symBinAddr: 0xB4D00, symSize: 0x0 }
+  - { offsetInCU: 0x72, offset: 0x2F6A, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0x8C08, symBinAddr: 0xB4D08, symSize: 0x0 }
   - { offsetInCU: 0x201, offset: 0x30F9, size: 0x8, addend: 0x0, symName: '-[EONetworkManager startNetworkMonitoring]', symObjAddr: 0x1C0, symBinAddr: 0x97A0, symSize: 0x690 }
   - { offsetInCU: 0x22A, offset: 0x3122, size: 0x8, addend: 0x0, symName: _startNetworkMonitoring.eoDebug, symObjAddr: 0x3770, symBinAddr: 0xB3F44, symSize: 0x0 }
   - { offsetInCU: 0x23F, offset: 0x3137, size: 0x8, addend: 0x0, symName: _startNetworkMonitoring.eoDebugKiwi, symObjAddr: 0x3774, symBinAddr: 0xB3F48, symSize: 0x0 }

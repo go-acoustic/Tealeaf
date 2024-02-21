@@ -2139,8 +2139,8 @@ relocations:
   - { offsetInCU: 0x23C, offset: 0xA8367, size: 0x8, addend: 0x0, symName: '-[TLFTextChangePlaceHolder .cxx_destruct]', symObjAddr: 0x12C, symBinAddr: 0xB7314, symSize: 0x38 }
   - { offsetInCU: 0x27, offset: 0xA83DD, size: 0x8, addend: 0x0, symName: '+[TLFApplicationHelper sharedInstance]', symObjAddr: 0x0, symBinAddr: 0xB734C, symSize: 0xB4 }
   - { offsetInCU: 0x34, offset: 0xA83EA, size: 0x8, addend: 0x0, symName: '+[TLFApplicationHelper sharedInstance]', symObjAddr: 0x0, symBinAddr: 0xB734C, symSize: 0xB4 }
-  - { offsetInCU: 0x5D, offset: 0xA8413, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0x167F0, symBinAddr: 0x18DFD8, symSize: 0x0 }
-  - { offsetInCU: 0x72, offset: 0xA8428, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x167F8, symBinAddr: 0x18DFE0, symSize: 0x0 }
+  - { offsetInCU: 0x5D, offset: 0xA8413, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0x167F8, symBinAddr: 0x18DFD8, symSize: 0x0 }
+  - { offsetInCU: 0x72, offset: 0xA8428, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x16800, symBinAddr: 0x18DFE0, symSize: 0x0 }
   - { offsetInCU: 0x51E, offset: 0xA88D4, size: 0x8, addend: 0x0, symName: '-[TLFApplicationHelper isTealeafHybridBridgeRequest:webView:]', symObjAddr: 0x1594, symBinAddr: 0xB88E0, symSize: 0x640 }
   - { offsetInCU: 0x547, offset: 0xA88FD, size: 0x8, addend: 0x0, symName: '_isTealeafHybridBridgeRequest:webView:.tlfDebug', symObjAddr: 0x35A0, symBinAddr: 0x18D6F8, symSize: 0x0 }
   - { offsetInCU: 0x55C, offset: 0xA8912, size: 0x8, addend: 0x0, symName: '_isTealeafHybridBridgeRequest:webView:.eoMiCloudSDKMachine', symObjAddr: 0x35A4, symBinAddr: 0x18D6FC, symSize: 0x0 }
@@ -2365,8 +2365,8 @@ relocations:
   - { offsetInCU: 0x21F0, offset: 0xB85FF, size: 0x8, addend: 0x0, symName: '-[TLFL_Button .cxx_destruct]', symObjAddr: 0x32E0, symBinAddr: 0xCAB18, symSize: 0x38 }
   - { offsetInCU: 0x27, offset: 0xBA611, size: 0x8, addend: 0x0, symName: '+[TLFUILifeCycleAIC sharedInstance]', symObjAddr: 0x0, symBinAddr: 0xCAB50, symSize: 0xB4 }
   - { offsetInCU: 0x34, offset: 0xBA61E, size: 0x8, addend: 0x0, symName: '+[TLFUILifeCycleAIC sharedInstance]', symObjAddr: 0x0, symBinAddr: 0xCAB50, symSize: 0xB4 }
-  - { offsetInCU: 0x5D, offset: 0xBA647, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x1C7D0, symBinAddr: 0x18E010, symSize: 0x0 }
-  - { offsetInCU: 0x72, offset: 0xBA65C, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0x1C7D8, symBinAddr: 0x18E018, symSize: 0x0 }
+  - { offsetInCU: 0x5D, offset: 0xBA647, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x1C7D8, symBinAddr: 0x18E010, symSize: 0x0 }
+  - { offsetInCU: 0x72, offset: 0xBA65C, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0x1C7E0, symBinAddr: 0x18E018, symSize: 0x0 }
   - { offsetInCU: 0x22C, offset: 0xBA816, size: 0x8, addend: 0x0, symName: '-[TLFUILifeCycleAIC viewController:viewDidAppear:isAlertUnload:baseAlertName:pageName:]', symObjAddr: 0x848, symBinAddr: 0xCB398, symSize: 0x543C }
   - { offsetInCU: 0x251, offset: 0xBA83B, size: 0x8, addend: 0x0, symName: '_viewController:viewDidAppear:isAlertUnload:baseAlertName:pageName:.tlfDebug', symObjAddr: 0x90C8, symBinAddr: 0x18D918, symSize: 0x0 }
   - { offsetInCU: 0x266, offset: 0xBA850, size: 0x8, addend: 0x0, symName: '_viewController:viewDidAppear:isAlertUnload:baseAlertName:pageName:.eoMiCloudSDKMachine', symObjAddr: 0x90CC, symBinAddr: 0x18D91C, symSize: 0x0 }
@@ -2627,8 +2627,8 @@ relocations:
   - { offsetInCU: 0x47E, offset: 0xD19A1, size: 0x8, addend: 0x0, symName: '-[TLFPinchGestureData initWithGestureRecognizer:]', symObjAddr: 0x0, symBinAddr: 0xE0518, symSize: 0xDC }
   - { offsetInCU: 0x27, offset: 0xD26EA, size: 0x8, addend: 0x0, symName: '+[TLFAutoInstrumentationManger sharedInstance]', symObjAddr: 0x0, symBinAddr: 0xE0A24, symSize: 0xB4 }
   - { offsetInCU: 0x34, offset: 0xD26F7, size: 0x8, addend: 0x0, symName: '+[TLFAutoInstrumentationManger sharedInstance]', symObjAddr: 0x0, symBinAddr: 0xE0A24, symSize: 0xB4 }
-  - { offsetInCU: 0x5D, offset: 0xD2720, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0xC998, symBinAddr: 0x18E040, symSize: 0x0 }
-  - { offsetInCU: 0x72, offset: 0xD2735, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0xC9A0, symBinAddr: 0x18E048, symSize: 0x0 }
+  - { offsetInCU: 0x5D, offset: 0xD2720, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0xC9A0, symBinAddr: 0x18E040, symSize: 0x0 }
+  - { offsetInCU: 0x72, offset: 0xD2735, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0xC9A8, symBinAddr: 0x18E048, symSize: 0x0 }
   - { offsetInCU: 0x329, offset: 0xD29EC, size: 0x8, addend: 0x0, symName: '-[TLFAutoInstrumentationManger getConfigFor:withCustomName:withClassCaller:]', symObjAddr: 0x6E4, symBinAddr: 0xE1108, symSize: 0x584 }
   - { offsetInCU: 0x352, offset: 0xD2A15, size: 0x8, addend: 0x0, symName: '_getConfigFor:withCustomName:withClassCaller:.tlfDebug', symObjAddr: 0x3E00, symBinAddr: 0x18DAA8, symSize: 0x0 }
   - { offsetInCU: 0x367, offset: 0xD2A2A, size: 0x8, addend: 0x0, symName: '_getConfigFor:withCustomName:withClassCaller:.eoMiCloudSDKMachine', symObjAddr: 0x3E04, symBinAddr: 0x18DAAC, symSize: 0x0 }
@@ -2890,8 +2890,8 @@ relocations:
   - { offsetInCU: 0x1278, offset: 0xE374E, size: 0x8, addend: 0x0, symName: '-[TLFPerformanceMessage .cxx_destruct]', symObjAddr: 0x13E0, symBinAddr: 0xF5240, symSize: 0x268 }
   - { offsetInCU: 0x27, offset: 0xE37E9, size: 0x8, addend: 0x0, symName: '+[TLFLayoutProccessor sharedInstance]', symObjAddr: 0x0, symBinAddr: 0xF54A8, symSize: 0xB4 }
   - { offsetInCU: 0x34, offset: 0xE37F6, size: 0x8, addend: 0x0, symName: '+[TLFLayoutProccessor sharedInstance]', symObjAddr: 0x0, symBinAddr: 0xF54A8, symSize: 0xB4 }
-  - { offsetInCU: 0x5D, offset: 0xE381F, size: 0x8, addend: 0x0, symName: _sharedInstance.once, symObjAddr: 0x1C740, symBinAddr: 0x18E078, symSize: 0x0 }
-  - { offsetInCU: 0x72, offset: 0xE3834, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0x1C748, symBinAddr: 0x18E080, symSize: 0x0 }
+  - { offsetInCU: 0x5D, offset: 0xE381F, size: 0x8, addend: 0x0, symName: _sharedInstance.once, symObjAddr: 0x1C748, symBinAddr: 0x18E078, symSize: 0x0 }
+  - { offsetInCU: 0x72, offset: 0xE3834, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0x1C750, symBinAddr: 0x18E080, symSize: 0x0 }
   - { offsetInCU: 0x1554, offset: 0xE4D16, size: 0x8, addend: 0x0, symName: '-[TLFLayoutProccessor getPreviousMainViewController]', symObjAddr: 0x1E8, symBinAddr: 0xF5690, symSize: 0x6B4 }
   - { offsetInCU: 0x157D, offset: 0xE4D3F, size: 0x8, addend: 0x0, symName: _getPreviousMainViewController.tlfDebug, symObjAddr: 0x83D0, symBinAddr: 0x18DBE0, symSize: 0x0 }
   - { offsetInCU: 0x1592, offset: 0xE4D54, size: 0x8, addend: 0x0, symName: _getPreviousMainViewController.eoMiCloudSDKMachine, symObjAddr: 0x83D4, symBinAddr: 0x18DBE4, symSize: 0x0 }

@@ -30,15 +30,19 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		pYul9IQFTmSHc2VEqFrhdZ97Ilo=
+		/zdPxvMK6ckX3dBCXFU7EGsriVY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		UGzT8qaQK7RrMcw7UsB29ak7OYM=
 		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		JmD1a1spY5ODgO2GFzgFu17xuz8=
+		</data>
 		<key>TLFResources.bundle/TealeafAdvancedConfig.json</key>
 		<data>
-		0AhkXF68BNWmHvzn0pRei7MVcLg=
+		RZsCsLkdXFrvK+Mu/VEwRKSjWRQ=
 		</data>
 		<key>TLFResources.bundle/TealeafBasicConfig.plist</key>
 		<data>
@@ -100,11 +104,18 @@
 			tbQbD+u88pcG7T41rcF/6ytiqOu71xRkp35GSNEv2go=
 			</data>
 		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			DkYfCn9iJWliFsFQxn/go2qRjIzCZHVV61Lr+6WdV+8=
+			</data>
+		</dict>
 		<key>TLFResources.bundle/TealeafAdvancedConfig.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Yy3PnjNU4iRugn6xUVA+a6u6+kyco/rhkt4z0NZSilA=
+			5PrlCHuLlIOwLpXDaY/9MklIfvoSB7cKAOjyT7IV2eE=
 			</data>
 		</dict>
 		<key>TLFResources.bundle/TealeafBasicConfig.plist</key>
