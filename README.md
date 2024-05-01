@@ -31,39 +31,23 @@ In the respective targets for your project in the Podfile add the following line
 
 Remember you can use only one of  `pod 'Tealeaf'` and `pod 'TealeafDebug'`. Do not use both at the same time.
 
-## Choosing A Suitable Hashing Library
-Starting Tealeaf version 10.6.20 onwards, the SDKs support 3 different hashing algorithms. SHA256, SHA512 and MD5; default being SHA256. If you want to use SHA256 no additional integration steps are required. Previously Tealeaf supported MD5 only and was the default algorithm. Apple is deprecating the MD5 APIs, hence we are moving to SHA2.
-
-### Using SHA256
-No additional integration steps required. Tealeaf and TealeafDebug by default use SHA256.
-
-### Using SHA512
-Instead of `pod 'Tealeaf'` or `pod 'TealeafDebug'` in your Podfile, please use `pod 'Tealeaf/SHA512'` or `pod 'TealeafDebug/SHA512'`
-
-### Using MD5
-Instead of `pod 'Tealeaf'` or `pod 'TealeafDebug'` in your Podfile, please use `pod 'Tealeaf/MD5'` or `pod 'TealeafDebug/MD5'`
-
 ### Important Note
 Please do use $(inherited) flag in your application target's "Other Linker Settings" This will ensure all the pods are linked correctly.
-
-When your application starts, MD5 and SHA512 hashing libraries print their versions in the console log. Forgetting to set $(inherited) flag can be one reason for it. If MD5 or SHA512 is not linked properly, Tealeaf will use built-in SHA256 default algorithm.
-
-You may read more about Hashing Libraries [here](https://developer.goacoustic.com/acoustic-exp-analytics/docs/hashing-libraries-for-computing-unique-ids-md5-sha256-and-sha512)
 
 # Getting Started with Carthage
 Open Cartfile in a text editor of your choice and note the following lines:
 
 In the respective targets for your project in the Podfile add the following line if you want to use Tealeaf SDK's release version
 
-`binary "https://raw.githubusercontent.com/acoustic-analytics/DigitalAnalytics/master/DAMod.json" >= 1.1.23`
+`binary "https://raw.githubusercontent.com/go-acoustic/DigitalAnalytics/master/DAMod.json" >= 1.1.23`
 
-`binary "https://raw.githubusercontent.com/acoustic-analytics/EOCore/master/EOCore.json" >= 2.3.24`
+`binary "https://raw.githubusercontent.com/go-acoustic/EOCore/master/EOCore.json" >= 2.3.24`
 
 In the respective targets for your project in the Podfile add the following line if you want to use Tealeaf SDK's debug version
 
-`binary "https://raw.githubusercontent.com/acoustic-analytics/DigitalAnalytics/master/DAModDebug.json" >= 1.1.23`
+`binary "https://raw.githubusercontent.com/go-acoustic/DigitalAnalytics/master/DAModDebug.json" >= 1.1.23`
 
-`binary "https://raw.githubusercontent.com/acoustic-analytics/EOCore/master/EOCoreDebug.json" >= 2.3.24`
+`binary "https://raw.githubusercontent.com/go-acoustic/EOCore/master/EOCoreDebug.json" >= 2.3.24`
 
 You will notice that by default the sample application uses `Debug` version of libraries.
 
@@ -77,8 +61,8 @@ Above carthage command should complete with no errors.
 
 # Getting Started with Swift Package
 Please go to 
-- Release library: https://github.com/acoustic-analytics/Tealeaf-SP
-- Debug library: https://github.com/acoustic-analytics/TealeafDebug-SP
+- Release library: https://github.com/go-acoustic/Tealeaf-SP
+- Debug library: https://github.com/go-acoustic/TealeafDebug-SP
 ***
 ## Uploading Application Images To Tealeaf Server (Only Needed for NonEnhanced Replay)
 Whichever hashing algorithm you choose, we recommend you repackage your application images and upload them to Tealeaf Server. Detailed steps are available [here](https://developer.goacoustic.com/acoustic-exp-analytics/docs/capturing-and-uploading-images-with-the-image-tool)
@@ -96,4 +80,4 @@ dyld: launch, loading dependent libraries
 In the podfile, change from use_frameworks! to use_modular_headers! to correct issues.
 
 # License
-License file can be read [here](https://github.com/acoustic-analytics/Tealeaf/blob/master/Licenses/License)
+License file can be read [here](https://github.com/go-acoustic/Tealeaf/blob/master/Licenses/License)
