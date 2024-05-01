@@ -10,11 +10,15 @@
 		</data>
 		<key>Headers/TLFApplicationHelper.h</key>
 		<data>
-		lrNOxNM0O9jTluJK2ZZk4KEIY10=
+		OEeTEbzEw0+lESmqwfHlfz5TcNU=
 		</data>
 		<key>Headers/TLFCustomEvent.h</key>
 		<data>
 		jVZnpHWicRsWjKG+MuZCGBfjnBs=
+		</data>
+		<key>Headers/TLFLevelManager.h</key>
+		<data>
+		GhmvRhoW4qBrQxjR7qTGu4YLc6E=
 		</data>
 		<key>Headers/TLFPublicDefinitions.h</key>
 		<data>
@@ -30,7 +34,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		abtn9MC/Df72Z5NOBh+uDti1ocQ=
+		kSWDPFQiNUgSgYplQytWHVH9NvY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -42,7 +46,7 @@
 		</data>
 		<key>TLFResources.bundle/TealeafAdvancedConfig.json</key>
 		<data>
-		XggFIjuhX0pkCT+JI6JNtVPmJzg=
+		dcoRfJZlsBnIIofMdWlxebHoURE=
 		</data>
 		<key>TLFResources.bundle/TealeafBasicConfig.plist</key>
 		<data>
@@ -66,7 +70,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IHnsRMsH+ET3qaF7WV391ruBfj2fMHWkiCi/I4GxVKU=
+			uQyDmtCfSs4tqAzbU5/XuecUVbiVnlM7XkPGk2j/2Fk=
 			</data>
 		</dict>
 		<key>Headers/TLFCustomEvent.h</key>
@@ -74,6 +78,13 @@
 			<key>hash2</key>
 			<data>
 			A0eMW0tPJTK78BB9ErjLBOd1gVxR1vx8LkY2HW8zufM=
+			</data>
+		</dict>
+		<key>Headers/TLFLevelManager.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			D3ew8UBUW5YoDwe+yMI8RI5Ud7azM8dU5jTtKjJwwg8=
 			</data>
 		</dict>
 		<key>Headers/TLFPublicDefinitions.h</key>
@@ -115,7 +126,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Qxg3x3ugAh9I2mKgjxWu5WglHUjh14czxYZtF6icuvs=
+			L/WN0lBaeguZ/zlrJ+qHq+oNxJZHlC6fhHihlRniOGY=
 			</data>
 		</dict>
 		<key>TLFResources.bundle/TealeafBasicConfig.plist</key>
