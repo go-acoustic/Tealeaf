@@ -43,7 +43,7 @@
 		</data>
 		<key>ios-arm64/TealeafReactNative.framework/Info.plist</key>
 		<data>
-		W6mg0gvIBLGoYa+cb0Vg17MwlqI=
+		rbR6+Agsa80oKS7zvVhlIhVUnjs=
 		</data>
 		<key>ios-arm64/TealeafReactNative.framework/Modules/module.modulemap</key>
 		<data>
@@ -51,11 +51,11 @@
 		</data>
 		<key>ios-arm64/TealeafReactNative.framework/PrivacyInfo.xcprivacy</key>
 		<data>
-		JmD1a1spY5ODgO2GFzgFu17xuz8=
+		RAnTPZU6cNDuCexJl5pB5am0brY=
 		</data>
 		<key>ios-arm64/TealeafReactNative.framework/TLFResources.bundle/TealeafAdvancedConfig.json</key>
 		<data>
-		PV47nZtbZawO73m8vXlCp9tmFAk=
+		AKytvAckszLjweIFw5m60pC9d1M=
 		</data>
 		<key>ios-arm64/TealeafReactNative.framework/TLFResources.bundle/TealeafBasicConfig.plist</key>
 		<data>
@@ -67,7 +67,7 @@
 		</data>
 		<key>ios-arm64/TealeafReactNative.framework/TealeafReactNative</key>
 		<data>
-		nzPsz9ZM3304XWzy/FKV0+8ehrw=
+		Z1dIJzUAj4eLeyl4f6Ljzqv9Law=
 		</data>
 		<key>ios-arm64_x86_64-simulator/TealeafReactNative.framework/AccessibilityResources.bundle/Info.plist</key>
 		<data>
@@ -108,7 +108,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/TealeafReactNative.framework/Info.plist</key>
 		<data>
-		3PB2U6RuvcesnUXyaescB87fBU8=
+		+uqZNm4Gz/vltTr9ffg2J8qfi4o=
 		</data>
 		<key>ios-arm64_x86_64-simulator/TealeafReactNative.framework/Modules/module.modulemap</key>
 		<data>
@@ -116,11 +116,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/TealeafReactNative.framework/PrivacyInfo.xcprivacy</key>
 		<data>
-		JmD1a1spY5ODgO2GFzgFu17xuz8=
+		RAnTPZU6cNDuCexJl5pB5am0brY=
 		</data>
 		<key>ios-arm64_x86_64-simulator/TealeafReactNative.framework/TLFResources.bundle/TealeafAdvancedConfig.json</key>
 		<data>
-		PV47nZtbZawO73m8vXlCp9tmFAk=
+		AKytvAckszLjweIFw5m60pC9d1M=
 		</data>
 		<key>ios-arm64_x86_64-simulator/TealeafReactNative.framework/TLFResources.bundle/TealeafBasicConfig.plist</key>
 		<data>
@@ -132,11 +132,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/TealeafReactNative.framework/TealeafReactNative</key>
 		<data>
-		Qep39NSTeT/9DbvNPjULGxJB5c0=
+		eJ6uKJEBFo4yyOGQhsMbpl4C1E0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/TealeafReactNative.framework/_CodeSignature/CodeResources</key>
 		<data>
-		90huqIqtM+cRaqua4b1uXvjvmuA=
+		XMDTsChjIhJIPLfqGEaSp58Cvxg=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -235,11 +235,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			W6mg0gvIBLGoYa+cb0Vg17MwlqI=
+			rbR6+Agsa80oKS7zvVhlIhVUnjs=
 			</data>
 			<key>hash2</key>
 			<data>
-			UV9Gn7AzeNGNaDL489ej5p7gTXj7eY7KohBpNCH3lBA=
+			15+wg/BWtudKlKk0mCV5f8iK8pvwWZDgruCo5Dl7YWc=
 			</data>
 		</dict>
 		<key>ios-arm64/TealeafReactNative.framework/Modules/module.modulemap</key>
@@ -257,22 +257,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			JmD1a1spY5ODgO2GFzgFu17xuz8=
+			RAnTPZU6cNDuCexJl5pB5am0brY=
 			</data>
 			<key>hash2</key>
 			<data>
-			DkYfCn9iJWliFsFQxn/go2qRjIzCZHVV61Lr+6WdV+8=
+			0yxJQwXVj1jujy3TeM/0XaVYSlLTCw0nBnLDrCGJahs=
 			</data>
 		</dict>
 		<key>ios-arm64/TealeafReactNative.framework/TLFResources.bundle/TealeafAdvancedConfig.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PV47nZtbZawO73m8vXlCp9tmFAk=
+			AKytvAckszLjweIFw5m60pC9d1M=
 			</data>
 			<key>hash2</key>
 			<data>
-			uiBXciKemIJTPc1nd2rWifu6GW5iDxsOSWvOCtXxV34=
+			rNxLUvtlIqqUldr7HFaWzj5AQ5Ec65lkjvDJCHa3xkE=
 			</data>
 		</dict>
 		<key>ios-arm64/TealeafReactNative.framework/TLFResources.bundle/TealeafBasicConfig.plist</key>
@@ -301,11 +301,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nzPsz9ZM3304XWzy/FKV0+8ehrw=
+			Z1dIJzUAj4eLeyl4f6Ljzqv9Law=
 			</data>
 			<key>hash2</key>
 			<data>
-			THqJBPirq83MtvbnRq4svwBL+z43d8V0kzV1Ij9ES00=
+			hLWuSEyBQGd0dA7lbGrBmetaXy1bmQlbW+yCwZwnDSA=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/TealeafReactNative.framework/AccessibilityResources.bundle/Info.plist</key>
@@ -402,11 +402,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3PB2U6RuvcesnUXyaescB87fBU8=
+			+uqZNm4Gz/vltTr9ffg2J8qfi4o=
 			</data>
 			<key>hash2</key>
 			<data>
-			4P+YmS8I0XU+XwXcMqCf3bs81oVFgqKW9+Rai9vEFsQ=
+			04UKgDv2MKO/xexqX4DlLOyuaUCdQo3RPTAmXZYoPvQ=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/TealeafReactNative.framework/Modules/module.modulemap</key>
@@ -424,22 +424,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			JmD1a1spY5ODgO2GFzgFu17xuz8=
+			RAnTPZU6cNDuCexJl5pB5am0brY=
 			</data>
 			<key>hash2</key>
 			<data>
-			DkYfCn9iJWliFsFQxn/go2qRjIzCZHVV61Lr+6WdV+8=
+			0yxJQwXVj1jujy3TeM/0XaVYSlLTCw0nBnLDrCGJahs=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/TealeafReactNative.framework/TLFResources.bundle/TealeafAdvancedConfig.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PV47nZtbZawO73m8vXlCp9tmFAk=
+			AKytvAckszLjweIFw5m60pC9d1M=
 			</data>
 			<key>hash2</key>
 			<data>
-			uiBXciKemIJTPc1nd2rWifu6GW5iDxsOSWvOCtXxV34=
+			rNxLUvtlIqqUldr7HFaWzj5AQ5Ec65lkjvDJCHa3xkE=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/TealeafReactNative.framework/TLFResources.bundle/TealeafBasicConfig.plist</key>
@@ -468,22 +468,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Qep39NSTeT/9DbvNPjULGxJB5c0=
+			eJ6uKJEBFo4yyOGQhsMbpl4C1E0=
 			</data>
 			<key>hash2</key>
 			<data>
-			MlvBrHyet7nhJf5ObSbcENQHbn6XJLVkKu4DzX8Vi9o=
+			TiM8ZQRma/UUaKW2kTkULJgpKFd8ACRIfAhbfjiK3qc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/TealeafReactNative.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			90huqIqtM+cRaqua4b1uXvjvmuA=
+			XMDTsChjIhJIPLfqGEaSp58Cvxg=
 			</data>
 			<key>hash2</key>
 			<data>
-			9D4brI2ibSTUgVacp2cYgCSSqIj985hnhe2mX/ug7yY=
+			IaWQqoLtI6f1xPB82SA32n/puzCj6UfbgnRPAEBVJeA=
 			</data>
 		</dict>
 	</dict>
