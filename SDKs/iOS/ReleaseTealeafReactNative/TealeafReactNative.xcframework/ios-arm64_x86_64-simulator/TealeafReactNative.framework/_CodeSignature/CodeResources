@@ -6,7 +6,7 @@
 	<dict>
 		<key>AccessibilityResources.bundle/Info.plist</key>
 		<data>
-		hbzShiGkJx4PD30h3akafifxyzY=
+		AHWThtjUd3ntq/Cv80ZGLDdMLq0=
 		</data>
 		<key>AccessibilityResources.bundle/en.lproj/Localizable.strings</key>
 		<dict>
@@ -23,7 +23,7 @@
 		</data>
 		<key>Headers/TLFApplicationHelper.h</key>
 		<data>
-		AePzWWBBNTzqGizRf5YsbA/eowE=
+		8sMFbDfjh3KOPvmiSTfwuJzguYE=
 		</data>
 		<key>Headers/TLFCustomEvent.h</key>
 		<data>
@@ -43,15 +43,19 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		kZ4ALlicWiFmupRer0rxhin8/Ek=
+		ZtkIJln/wQOiLsF35Zi61sIE1rs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		U96x+SwkQrq7GtkfZcCqll3g0Ys=
 		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		RAnTPZU6cNDuCexJl5pB5am0brY=
+		</data>
 		<key>TLFResources.bundle/TealeafAdvancedConfig.json</key>
 		<data>
-		0AhkXF68BNWmHvzn0pRei7MVcLg=
+		nMVhsr/MjV1KQGV8lpJnMGWzBR4=
 		</data>
 		<key>TLFResources.bundle/TealeafBasicConfig.plist</key>
 		<data>
@@ -68,7 +72,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zC8J0uiiv/LydL7JQY9vRStwwsgifxpNcAbvnVYNAdc=
+			PFoPWNXxNIcTsa5DnFeQxI2f+HFfVHsb6bmRg0fg1rg=
 			</data>
 		</dict>
 		<key>AccessibilityResources.bundle/en.lproj/Localizable.strings</key>
@@ -91,7 +95,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			z8K5LkfU2Apz8+HgpSOvt/PvU/gdk4UgIu/RBybB9fY=
+			20QZTF/pbgcfetgMZre/46V76EvbQdw6iT2GgDAIYp0=
 			</data>
 		</dict>
 		<key>Headers/TLFCustomEvent.h</key>
@@ -129,11 +133,18 @@
 			FwI0WtEmJDrXvrInSxcA86ka70MHPjzEhpG9VGvuGSg=
 			</data>
 		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0yxJQwXVj1jujy3TeM/0XaVYSlLTCw0nBnLDrCGJahs=
+			</data>
+		</dict>
 		<key>TLFResources.bundle/TealeafAdvancedConfig.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Yy3PnjNU4iRugn6xUVA+a6u6+kyco/rhkt4z0NZSilA=
+			sF0JsNdS+qGRVF0y7dc2nxBqNdMMmmXJEkNniXNjU8c=
 			</data>
 		</dict>
 		<key>TLFResources.bundle/TealeafBasicConfig.plist</key>
