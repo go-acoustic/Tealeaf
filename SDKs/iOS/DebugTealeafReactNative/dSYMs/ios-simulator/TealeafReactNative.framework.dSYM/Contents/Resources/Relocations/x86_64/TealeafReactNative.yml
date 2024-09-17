@@ -2165,8 +2165,8 @@ relocations:
   - { offsetInCU: 0x799, offset: 0x83B2C, size: 0x8, addend: 0x0, symName: '-[TLFNotificationObserver tableViewSelectionDidChangeNotification:]', symObjAddr: 0x1C70, symBinAddr: 0xD0B80, symSize: 0x7D }
   - { offsetInCU: 0x27, offset: 0x84237, size: 0x8, addend: 0x0, symName: '+[TLFCoreModule sharedInstance]', symObjAddr: 0x0, symBinAddr: 0xD0C00, symSize: 0xB0 }
   - { offsetInCU: 0x34, offset: 0x84244, size: 0x8, addend: 0x0, symName: '+[TLFCoreModule sharedInstance]', symObjAddr: 0x0, symBinAddr: 0xD0C00, symSize: 0xB0 }
-  - { offsetInCU: 0x5D, offset: 0x8426D, size: 0x8, addend: 0x0, symName: _sharedInstance._singletonPredicate, symObjAddr: 0x9050, symBinAddr: 0x422C38, symSize: 0x0 }
-  - { offsetInCU: 0x72, offset: 0x84282, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0x9058, symBinAddr: 0x422C40, symSize: 0x0 }
+  - { offsetInCU: 0x5D, offset: 0x8426D, size: 0x8, addend: 0x0, symName: _sharedInstance._singletonPredicate, symObjAddr: 0x9058, symBinAddr: 0x422C38, symSize: 0x0 }
+  - { offsetInCU: 0x72, offset: 0x84282, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0x9060, symBinAddr: 0x422C40, symSize: 0x0 }
   - { offsetInCU: 0x14C, offset: 0x8435C, size: 0x8, addend: 0x0, symName: '-[TLFCoreModule enable]', symObjAddr: 0x190, symBinAddr: 0xD0D90, symSize: 0x870 }
   - { offsetInCU: 0x175, offset: 0x84385, size: 0x8, addend: 0x0, symName: _enable.connectDebug, symObjAddr: 0x3808, symBinAddr: 0x41E760, symSize: 0x0 }
   - { offsetInCU: 0x18A, offset: 0x8439A, size: 0x8, addend: 0x0, symName: _enable.tlfDebug, symObjAddr: 0x380C, symBinAddr: 0x41E764, symSize: 0x0 }
