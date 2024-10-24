@@ -14,7 +14,7 @@
 #if TEALEAF_USE_REACT
 #import <TealeafReactNative/TLFPublicDefinitions.h>
 #else
-#import <Tealeaf/TLFPublicDefinitions.h>
+#import <TealeafReactNative/TLFPublicDefinitions.h>
 #endif
 
 @interface TLFMessage : EOMessage
