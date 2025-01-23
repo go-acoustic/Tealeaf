@@ -42,7 +42,7 @@
 		</data>
 		<key>ios-arm64/Tealeaf.framework/Info.plist</key>
 		<data>
-		WV+aP+K+1owDXRYVoLluL4VWs78=
+		GfzEtNyMxkorQp8YOZepISrXx7Q=
 		</data>
 		<key>ios-arm64/Tealeaf.framework/Modules/module.modulemap</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>ios-arm64/Tealeaf.framework/Tealeaf</key>
 		<data>
-		DtaurD8g9Mvbw/Rf1IaqFyCr5LI=
+		0CRXJEZhwio10Oe7v1PqvaSI8NQ=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Tealeaf.framework/Headers/TLFApplication.h</key>
 		<data>
@@ -94,7 +94,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/Tealeaf.framework/Info.plist</key>
 		<data>
-		MRfePd76TZjOhuyBBZR8W0xSOME=
+		jxLDFu1cpkGuzdSPDTAV+K/0EQU=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Tealeaf.framework/Modules/module.modulemap</key>
 		<data>
@@ -106,11 +106,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/Tealeaf.framework/Tealeaf</key>
 		<data>
-		bn65aYWdHY5B0nIqPoi7WtfgUS0=
+		iusgBV8HErGw+QRuedWIb8k1AQ4=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Tealeaf.framework/_CodeSignature/CodeResources</key>
 		<data>
-		cYCg26wKZq8+akLyb5hQb/hWJQY=
+		Rc8FZByuWk+dDdvStIL8CgQ8N0E=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -218,11 +218,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WV+aP+K+1owDXRYVoLluL4VWs78=
+			GfzEtNyMxkorQp8YOZepISrXx7Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			sXWvHhCBJ29Ak969WzN6EFYjP762uPG1XO+RwBX7ebI=
+			Lwyd+t7P/EY8A+f0X6EC6+Qj8T2NZoVQNV/MnSKkINg=
 			</data>
 		</dict>
 		<key>ios-arm64/Tealeaf.framework/Modules/module.modulemap</key>
@@ -251,11 +251,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			DtaurD8g9Mvbw/Rf1IaqFyCr5LI=
+			0CRXJEZhwio10Oe7v1PqvaSI8NQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			7pnI8u/WmN+5+G0e0qsnVdf9E6kLNG/UDM47wsF0v1U=
+			/1C8hbw4K7TfbdkGgBitWWCvtq1SAxJMZG0bi5NLBa0=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Tealeaf.framework/Headers/TLFApplication.h</key>
@@ -361,11 +361,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MRfePd76TZjOhuyBBZR8W0xSOME=
+			jxLDFu1cpkGuzdSPDTAV+K/0EQU=
 			</data>
 			<key>hash2</key>
 			<data>
-			UtaAVX0fvcPUmG0gqVzAspl/9bhUWcWxoMr/Ud/0idQ=
+			Xh1AwQ/0t8bRIZILpOfgkaiMnJ6ep+K0ABe8u7asNnU=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Tealeaf.framework/Modules/module.modulemap</key>
@@ -394,22 +394,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			bn65aYWdHY5B0nIqPoi7WtfgUS0=
+			iusgBV8HErGw+QRuedWIb8k1AQ4=
 			</data>
 			<key>hash2</key>
 			<data>
-			PYydhNJouIOZZEAIRPF6uU5OmBzQ+OrXmohZ09q8A2k=
+			DNfwAUYW+l+g2EEtUfzk+BfEOarS9ifxFiq3pOy3N/s=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Tealeaf.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cYCg26wKZq8+akLyb5hQb/hWJQY=
+			Rc8FZByuWk+dDdvStIL8CgQ8N0E=
 			</data>
 			<key>hash2</key>
 			<data>
-			M/pjLdJd+xcXXFSGeio3kRuJhVHig9o9dW0m5x/RLgE=
+			+3UKh5qHvGA8Av/vYa37DYXxaMS/+pQv+bVPrXFQP9w=
 			</data>
 		</dict>
 	</dict>
