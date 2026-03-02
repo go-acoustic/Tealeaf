@@ -27,6 +27,7 @@ typedef NS_ENUM(NSUInteger, TLFMessageType)
     TLFMessageTypeLocation = 13,
     TLFMessageTypeFormCompletion = 15,
     TLFMessageTypeSignal = 21,
+    TLFMessageTypePushRegistration = 22,
     TLFMessageTypeJSONString = 99,
     TLFMessageTypeScreenViewPlaceHolder = 100,
     TLFMessageTypeScreenLayoutPlaceHolder = 101,
