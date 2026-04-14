@@ -42,7 +42,7 @@
 		</data>
 		<key>ios-arm64/Tealeaf.framework/Info.plist</key>
 		<data>
-		m5gJ1n1oa5syI3ywCQqMnnznEso=
+		Jcq7udzx/SxORcSHI4kLKrbKGas=
 		</data>
 		<key>ios-arm64/Tealeaf.framework/Modules/module.modulemap</key>
 		<data>
@@ -54,7 +54,19 @@
 		</data>
 		<key>ios-arm64/Tealeaf.framework/Tealeaf</key>
 		<data>
-		I7FN/JV2AGp28BGtzxIw0XaM7YI=
+		YmvtMrmF5EFeO0/0/1x+Wp6T+b0=
+		</data>
+		<key>ios-arm64/dSYMs/Tealeaf.framework.dSYM/Contents/Info.plist</key>
+		<data>
+		EVSzgaKgoglfUZQeluxuMHTd1CY=
+		</data>
+		<key>ios-arm64/dSYMs/Tealeaf.framework.dSYM/Contents/Resources/DWARF/Tealeaf</key>
+		<data>
+		qPLyi0FlwdrFfkgueCRBIYxmx6o=
+		</data>
+		<key>ios-arm64/dSYMs/Tealeaf.framework.dSYM/Contents/Resources/Relocations/aarch64/Tealeaf.yml</key>
+		<data>
+		SyR2tqD2bwLvWIn4MP1idio/5UY=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Tealeaf.framework/Headers/TLFApplication.h</key>
 		<data>
@@ -94,7 +106,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/Tealeaf.framework/Info.plist</key>
 		<data>
-		mCkfE+MioJ3mICvJEiIBWI7fPh8=
+		EU8axB7Eue2/8lwnrwSBJUgXzZ8=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Tealeaf.framework/Modules/module.modulemap</key>
 		<data>
@@ -106,11 +118,27 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/Tealeaf.framework/Tealeaf</key>
 		<data>
-		4nNzvQLx8XgaBv8h7PxNqqsbIG4=
+		3z5StibejozAiaNjc62vI8o828M=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Tealeaf.framework/_CodeSignature/CodeResources</key>
 		<data>
-		6uGDgumm4e5VrzAc23oZt0+/QGM=
+		yy2dgC65hIF2Moxq30+hO/CdnWg=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/Tealeaf.framework.dSYM/Contents/Info.plist</key>
+		<data>
+		EVSzgaKgoglfUZQeluxuMHTd1CY=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/Tealeaf.framework.dSYM/Contents/Resources/DWARF/Tealeaf</key>
+		<data>
+		9JGOVrxl80ST77+KWefLB5KeqEc=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/Tealeaf.framework.dSYM/Contents/Resources/Relocations/aarch64/Tealeaf.yml</key>
+		<data>
+		1RcT3xgvzWLHSwYJs4+1EO25udU=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/Tealeaf.framework.dSYM/Contents/Resources/Relocations/x86_64/Tealeaf.yml</key>
+		<data>
+		wgIQj+9Seiaq4W44yLYSj3hXwTc=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -182,7 +210,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			s65M0i1OcuGqBTrap51hWzFuM77GTc8rHHG7PrK6pmw=
+			CdFZgdrHk/mPevdE6lha/T8EdKvXN9eHJJzzOYGx8R8=
 			</data>
 		</dict>
 		<key>ios-arm64/Tealeaf.framework/Modules/module.modulemap</key>
@@ -203,7 +231,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PhX/HRKopTTwaJt5IDIqD+ujXKJvoGntQEryrb7XJek=
+			cq3t4JeLY/QY00H6an0n3OhGN7idM6Wea5iIPVrn8kc=
+			</data>
+		</dict>
+		<key>ios-arm64/dSYMs/Tealeaf.framework.dSYM/Contents/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			VaXKRkWXoYnQgn9WnfywboaBnOrf+HlflCyHpmQjQHk=
+			</data>
+		</dict>
+		<key>ios-arm64/dSYMs/Tealeaf.framework.dSYM/Contents/Resources/DWARF/Tealeaf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			2EoNIR0tA/B88GWidnmfzHtVB//C37YiWY5Lw/NyLhM=
+			</data>
+		</dict>
+		<key>ios-arm64/dSYMs/Tealeaf.framework.dSYM/Contents/Resources/Relocations/aarch64/Tealeaf.yml</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			wbW9BUo1n+AxemCUNWZG1QBejYdHc1UpI6vkQrgZaOI=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Tealeaf.framework/Headers/TLFApplication.h</key>
@@ -273,7 +322,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YIYDWku6Xmay7Tn4yBS4S1Pt297XgQxKHA0hFWSMrw4=
+			2iAfqy9fWqgMQ6eVXTwPsmCaREGBT0ZC7vUTilkLxp8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Tealeaf.framework/Modules/module.modulemap</key>
@@ -294,14 +343,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SXjQj6IS8U9R8lRWfzydsDt7t2Sa4ejQ/uD+l+Qgmx8=
+			jQ1maddakA0fqOtByCEWbagE0jpE4FZHwcqVLfC9GDI=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Tealeaf.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3q/sn4XWrgPxBeQ0xgq5d8vaHNCAQlBista3klYGxwY=
+			L9eeVTjV6MtfFiUTvIa8kpIgy+/Noez/SemYmqC9+xE=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/Tealeaf.framework.dSYM/Contents/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			VaXKRkWXoYnQgn9WnfywboaBnOrf+HlflCyHpmQjQHk=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/Tealeaf.framework.dSYM/Contents/Resources/DWARF/Tealeaf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			z01WImajs2yZuofNHnVvi6EvBIDoq++BjyjKldKf3vo=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/Tealeaf.framework.dSYM/Contents/Resources/Relocations/aarch64/Tealeaf.yml</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			CqxRmIGEHwwTad1jmKLwxNc31s/1spet//kpKmKDexg=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/Tealeaf.framework.dSYM/Contents/Resources/Relocations/x86_64/Tealeaf.yml</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jahal+MQnluFkWuHN2FibDPx3jYIoiSCkjk/vA/fyjk=
 			</data>
 		</dict>
 	</dict>
