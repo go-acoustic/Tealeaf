@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.homepage = 'https://github.com/go-acoustic/Tealeaf'
   s.summary = 'Acoustic Tealeaf EOCore iOS SDK'
   s.cocoapods_version = '>= 1.10.0'
-  s.platforms = { :ios => '12.0' }
+  s.platforms = { :ios => '15.1' }
   s.source = { :git => 'https://github.com/go-acoustic/Tealeaf.git', :tag => '10.6.336'}
   s.default_subspec = 'Core'
   s.subspec 'Core' do |core|
